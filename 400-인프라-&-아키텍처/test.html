@@ -1,0 +1,347 @@
+<!DOCTYPE html> <html lang="en"><head>
+<title>test</title>
+<base href="..">
+<meta name="pathname" content="400-인프라-&amp;-아키텍처/test.html">
+<meta name="description" content="Obsidian Vault - test">
+<meta property="og:title" content="test">
+<meta property="og:description" content="Obsidian Vault - test">
+<meta property="og:type" content="website">
+<meta property="og:url" content="400-인프라-&amp;-아키텍처/test.html">
+<meta property="og:image" content="undefined">
+<meta charset="UTF-8"><meta property="og:site_name" content="Obsidian Vault"><meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=1.0, maximum-scale=5.0"><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="site-lib/rss.xml"><script async="" id="webpage-script" src="site-lib/scripts/webpage.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="graph-wasm-script" src="site-lib/scripts/graph-wasm.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="graph-render-worker-script" src="site-lib/scripts/graph-render-worker.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><link rel="icon" href="site-lib/media/favicon.png"><link rel="preload" href="site-lib/styles/snippets.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="site-lib/styles/snippets.css"></noscript><link rel="stylesheet" href="site-lib/styles/obsidian.css"><link rel="stylesheet" href="site-lib/styles/theme.css"><link rel="preload" href="site-lib/styles/global-variable-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="site-lib/styles/global-variable-styles.css"></noscript><link rel="preload" href="site-lib/styles/supported-plugins.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="site-lib/styles/supported-plugins.css"></noscript><link rel="preload" href="site-lib/styles/main-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="site-lib/styles/main-styles.css"></noscript><style>body{--line-width:40em;--line-width-adaptive:40em;--file-line-width:40em;--sidebar-width:min(20em, 80vw);--collapse-arrow-size:11px;--tree-vertical-spacing:1.3em;--sidebar-margin:12px}:root{background-color:#202124}.sidebar{height:100%;font-size:14px;z-index:10;min-width:calc(var(--sidebar-width) + var(--divider-width-hover));max-width:calc(var(--sidebar-width) + var(--divider-width-hover));position:relative;overflow:hidden;overflow:clip;transition:min-width ease-in-out,max-width ease-in-out;transition-duration:.2s;contain:size}#left-sidebar{left:0}#right-sidebar{right:0}.sidebar.is-collapsed{min-width:0;max-width:0}.sidebar.floating{position:absolute}.sidebar .leaf-content{height:100%;min-width:calc(var(--sidebar-width) - var(--divider-width-hover));top:0;padding:var(--sidebar-margin);padding-top:4em;line-height:var(--line-height-tight);background-color:var(--background-secondary);transition:background-color,border-right,border-left,box-shadow;transition-duration:var(--color-fade-speed);transition-timing-function:ease-in-out;position:absolute;display:flex;flex-direction:column}.sidebar:not(.is-collapsed) .leaf-content{min-width:calc(max(100%,var(--sidebar-width)) - 3px);max-width:calc(max(100%,var(--sidebar-width)) - 3px)}#left-sidebar-content{left:0;border-top-right-radius:var(--radius-l);border-bottom-right-radius:var(--radius-l)}#right-sidebar-content{right:0;border-top-left-radius:var(--radius-l);border-bottom-left-radius:var(--radius-l)}.sidebar #left-sidebar-content,.sidebar #right-sidebar-content{contain:none!important;container-type:normal!important;animation:none!important}.sidebar:has(.leaf-content:empty):has(.topbar-content:empty){display:none}.sidebar-topbar{height:calc(2.3em + 2 * var(--sidebar-margin));width:var(--sidebar-width);padding:var(--sidebar-margin);z-index:1;position:fixed;display:flex;align-items:center;transition:width ease-in-out;transition-duration:inherit}.sidebar.is-collapsed .sidebar-topbar{width:calc(2.3em + var(--sidebar-margin) * 2)}.sidebar .sidebar-topbar.is-collapsed{width:0}#left-sidebar .sidebar-topbar{left:0;flex-direction:row;border-top-right-radius:var(--radius-l)}#right-sidebar .sidebar-topbar{right:0;flex-direction:row-reverse;border-top-left-radius:var(--radius-l)}#left-sidebar .topbar-content{margin-right:calc(2.3em + var(--sidebar-margin));flex-direction:row}#right-sidebar .topbar-content{margin-left:calc(2.3em + var(--sidebar-margin));flex-direction:row-reverse}.topbar-content{overflow:hidden visible;overflow:clip visible;width:100%;height:100%;display:flex;align-items:center;transition:inherit}.sidebar.is-collapsed .topbar-content{width:0;transition:inherit}.clickable-icon.sidebar-collapse-icon{background-color:transparent;color:var(--icon-color-focused);padding:2px!important;margin:0!important;height:100%!important;width:2.3em!important;margin-inline:0.14em!important;position:absolute}#left-sidebar .clickable-icon.sidebar-collapse-icon{transform:rotateY(180deg);right:var(--sidebar-margin)}#right-sidebar .clickable-icon.sidebar-collapse-icon{transform:rotateY(180deg);left:var(--sidebar-margin)}.clickable-icon.sidebar-collapse-icon svg.svg-icon{width:100%;height:100%}.feature-title{margin-left:1px;text-transform:uppercase;letter-spacing:.06em;margin-top:.75em;margin-bottom:.75em}.feature-header{display:flex;align-items:center;padding-top:0;font-size:1em;padding-left:0}body.floating-sidebars .sidebar{position:absolute}body{transition:background-color var(--color-fade-speed) ease-in-out}#navbar:not(:empty){display:flex;align-items:center;justify-content:space-between;padding:.5em 1em;width:100%}#main{display:flex;flex-direction:column;height:100%;width:100%;align-items:stretch;justify-content:center}#main-horizontal{display:flex;flex-direction:row;flex-grow:1;width:100%;align-items:stretch;justify-content:center}#center-content{flex-basis:100%;max-width:100%;width:100%;height:100%;display:flex;flex-direction:column;align-items:center;transition:opacity .2s ease-in-out;contain:inline-size}.hide{opacity:0!important;transition:opacity .2s ease-in-out;pointer-events:none}#center-content>.obsidian-document{padding-left:2em;padding-right:1em;margin-bottom:0;width:100%;width:-webkit-fill-available;width:-moz-available;width:fill-available;transition:background-color var(--color-fade-speed) ease-in-out;border-top-right-radius:var(--window-radius,var(--radius-m));border-top-left-radius:var(--window-radius,var(--radius-m));overflow-x:hidden!important;overflow-y:auto!important;display:flex!important;flex-direction:column!important;align-items:center!important;contain:inline-size}body #center-content>.obsidian-document>.markdown-preview-sizer{padding-bottom:80vh;width:100%;max-width:var(--line-width);flex-basis:var(--line-width);transition:background-color var(--color-fade-speed) ease-in-out;contain:inline-size}#center-content>.obsidian-document>div{width:100%!important;transition:background-color var(--color-fade-speed) ease-in-out;contain:inline-size}#center-content>.obsidian-document:not([data-type=markdown]).embed{display:flex;padding:1em;height:100%;width:100%;align-items:center;justify-content:center}#center-content>.obsidian-document:not([data-type=markdown]).embed>*{max-width:100%;max-height:100%;object-fit:contain}:not(h1,h2,h3,h4,h5,h6,li):has(> :is(.math,table)){overflow-x:auto!important}#center-content>.obsidian-document:not([data-type=markdown]){overflow-x:auto;contain:content;padding:0;margin:0;height:100%}.obsidian-document[data-type=attachment]{display:flex;flex-direction:column;align-items:center;justify-content:center;height:100%;width:100%}.obsidian-document[data-type=attachment]>*{outline:0;border:none;box-shadow:none}.obsidian-document[data-type=attachment] :is(img){max-width:90%;max-height:90%;object-fit:contain}.obsidian-document[data-type=attachment]>:is(audio){width:100%;max-width:min(90%,var(--line-width))}.obsidian-document[data-type=attachment]>:is(embed,iframe,video){width:100%;height:100%;max-width:100%;max-height:100%;object-fit:contain}.canvas-wrapper>:is(.header,.footer){z-index:100;position:absolute;display:flex;justify-content:center;flex-direction:column;width:100%;align-items:center}.scroll-highlight{position:absolute;width:100%;height:100%;pointer-events:none;z-index:1000;background-color:hsla(var(--color-accent-hsl),.25);opacity:0;padding:1em;inset:50%;translate:-50% -50%;border-radius:var(--radius-s)}</style><script defer="">async function loadIncludes(){let e=document.querySelectorAll("link[itemprop='include']");for(const t of e){let e=t.getAttribute("href");try{let o="";if(e.startsWith("https:")||e.startsWith("http:")||"file:"!=window.location.protocol){const n=await fetch(e);if(!n.ok){console.log("Could not include file: "+e),t?.remove();continue}o=await n.text()}else{const t=document.getElementById(btoa(encodeURI(e)));if(t){const e=JSON.parse(decodeURI(atob(t.getAttribute("value")??"")));o=e?.data??""}}let n=document.createRange().createContextualFragment(o);t.before(n),t.remove(),console.log("Included text: "+o),console.log("Included file: "+e)}catch(o){t?.remove(),console.log("Could not include file: "+e,o);continue}}}document.addEventListener("DOMContentLoaded",(()=>{loadIncludes()}));let isFileProtocol="file:"==location.protocol;function waitLoadScripts(e,t){let o=e.map((e=>document.getElementById(e+"-script")));!function e(n){let l=o[n],c=n+1;l?(l&&"true"!=l.getAttribute("loaded")||n<o.length&&e(c),n<o.length&&l.addEventListener("load",(()=>e(c)))):n<o.length?e(c):t()}(0)}</script></head><body class="publish css-settings-manager mod-macos is-frameless is-hidden-frameless show-inline-title show-ribbon ctp-rosepine-light ctp-mocha-old ctp-accent-light-lavender ctp-accent-yellow anuppuccin-accent-toggle anp-callout-sleek anp-callout-color-toggle anp-custom-checkboxes anp-speech-bubble anp-latex-inline-text anp-latex-block-text anp-list-toggle anp-table-toggle anp-table-width anp-table-auto anp-table-th-highlight anp-table-row-alt anp-toggle-preview anp-kanban-lanes anp-color-transition-toggle anp-hide-status-bar anp-hide-external-link-icon anp-header-color-toggle anp-header-divider-color-toggle anp-h1-lavender anp-h1-divider anp-h2-mauve anp-h3-sapphire anp-h4-green anp-h5-teal anp-h6-sapphire anp-decoration-toggle anp-bold-blue anp-italic-maroon anp-highlight-pink anp-collapse-folders anp-full-rainbow-color-toggle anp-depth-tab-toggle anp-disable-newtab-align anp-card-layout anp-hide-borders anp-card-shadows anp-card-layout-actions anp-card-layout-filebrowser anp-theme-ext-light anp-theme-ext-dark ctp-notion-light ctp-thorns is-focused"><script defer="">let theme=localStorage.getItem("theme")||(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");"dark"==theme?(document.body.classList.add("theme-dark"),document.body.classList.remove("theme-light")):(document.body.classList.add("theme-light"),document.body.classList.remove("theme-dark")),window.innerWidth<480?document.body.classList.add("is-phone"):window.innerWidth<768?document.body.classList.add("is-tablet"):window.innerWidth<1024?document.body.classList.add("is-small-screen"):document.body.classList.add("is-large-screen")</script><div class="parsed-feature-container" style="display: contents;"><link itemprop="include" href="site-lib/html/custom-head-content-content.html"></div><div id="main"><div id="navbar"></div><div id="main-horizontal"><div id="left-content" class="leaf" style="--sidebar-width: var(--sidebar-width-left);"><div id="left-sidebar" class="sidebar"><div class="sidebar-handle"></div><div class="sidebar-topbar"><div class="topbar-content"><div id="search-container"><div id="search-wrapper"><input enterkeyhint="search" type="search" spellcheck="false" placeholder="Search..."><div aria-label="Clear search" id="search-clear-button"></div></div></div></div><div class="clickable-icon sidebar-collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><path d="M21 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H21C22.1046 21 23 20.1046 23 19V5C23 3.89543 22.1046 3 21 3Z"></path><path d="M10 4V20"></path><path d="M4 7H7"></path><path d="M4 10H7"></path><path d="M4 13H7"></path></svg></div></div><div class="sidebar-content-wrapper"><div id="left-sidebar-content" class="leaf-content"><link itemprop="include" href="site-lib/html/file-tree-content.html"></div></div><script defer="">let ls = document.querySelector("#left-sidebar"); ls.classList.toggle("is-collapsed", window.innerWidth < 768); ls.style.setProperty("--sidebar-width", localStorage.getItem("sidebar-left-width"));</script></div></div><div id="center-content" class="leaf"><div class="obsidian-document markdown-preview-view markdown-rendered node-insert-event is-readable-line-width allow-fold-headings allow-fold-lists show-indentation-guide show-properties" data-type="markdown"><style id="MJX-CHTML-styles">mjx-c.mjx-c1D458.TEX-I::before{padding:.694em .521em .011em 0;content:"k"}mjx-c.mjx-c2265::before{padding:.636em .778em .138em 0;content:"≥"}mjx-msup{display:inline-block;text-align:left}mjx-c.mjx-c33::before{padding:.665em .5em .022em 0;content:"3"}mjx-c.mjx-c1D449.TEX-I::before{padding:.683em .769em .022em 0;content:"V"}mjx-c.mjx-c1D440.TEX-I::before{padding:.683em 1.051em 0 0;content:"M"}mjx-c.mjx-c1D442.TEX-I::before{padding:.704em .763em .022em 0;content:"O"}mjx-c.mjx-c1D438.TEX-I::before{padding:.68em .764em 0 0;content:"E"}mjx-c.mjx-c1D454.TEX-I::before{padding:.442em .477em .205em 0;content:"g"}mjx-c.mjx-c1D463.TEX-I::before{padding:.443em .485em .011em 0;content:"v"}mjx-c.mjx-c1D44E.TEX-I::before{padding:.441em .529em .01em 0;content:"a"}mjx-c.mjx-c1D459.TEX-I::before{padding:.694em .298em .011em 0;content:"l"}mjx-c.mjx-c28::before{padding:.75em .389em .25em 0;content:"("}mjx-c.mjx-c2C::before{padding:.121em .278em .194em 0;content:","}mjx-c.mjx-c1D446.TEX-I::before{padding:.705em .645em .022em 0;content:"S"}mjx-c.mjx-c29::before{padding:.75em .389em .25em 0;content:")"}mjx-c.mjx-c7C::before{padding:.75em .278em .249em 0;content:"|"}mjx-c.mjx-c1D460.TEX-I::before{padding:.442em .469em .01em 0;content:"s"}mjx-c.mjx-c1D462.TEX-I::before{padding:.442em .572em .011em 0;content:"u"}mjx-c.mjx-c1D45A.TEX-I::before{padding:.442em .878em .011em 0;content:"m"}mjx-c.mjx-c5B::before{padding:.75em .278em .25em 0;content:"["}mjx-c.mjx-c5D::before{padding:.75em .278em .25em 0;content:"]"}mjx-c.mjx-c2217::before{padding:.465em .5em 0 0;content:"∗"}mjx-c.mjx-c1D453.TEX-I::before{padding:.705em .55em .205em 0;content:"f"}mjx-c.mjx-c1D45C.TEX-I::before{padding:.441em .485em .011em 0;content:"o"}mjx-c.mjx-c1D45F.TEX-I::before{padding:.442em .451em .011em 0;content:"r"}mjx-c.mjx-c30::before{padding:.666em .5em .022em 0;content:"0"}mjx-c.mjx-c2E::before{padding:.12em .278em 0 0;content:"."}mjx-c.mjx-c1D441.TEX-I::before{padding:.683em .888em 0 0;content:"N"}mjx-container[jax=CHTML]{line-height:0}mjx-container [space="1"]{margin-left:.111em}mjx-container [space="2"]{margin-left:.167em}mjx-container [space="3"]{margin-left:.222em}mjx-container [space="4"]{margin-left:.278em}mjx-container [space="5"]{margin-left:.333em}mjx-container [rspace="1"]{margin-right:.111em}mjx-container [rspace="2"]{margin-right:.167em}mjx-container [rspace="3"]{margin-right:.222em}mjx-container [rspace="4"]{margin-right:.278em}mjx-container [rspace="5"]{margin-right:.333em}mjx-container [size="s"]{font-size:70.7%}mjx-container [size=ss]{font-size:50%}mjx-container [size=Tn]{font-size:60%}mjx-container [size=sm]{font-size:85%}mjx-container [size=lg]{font-size:120%}mjx-container [size=Lg]{font-size:144%}mjx-container [size=LG]{font-size:173%}mjx-container [size=hg]{font-size:207%}mjx-container [size=HG]{font-size:249%}mjx-container [width=full]{width:100%}mjx-box{display:inline-block}mjx-block{display:block}mjx-itable{display:inline-table}mjx-row{display:table-row}mjx-row>*{display:table-cell}mjx-mtext{display:inline-block}mjx-mstyle{display:inline-block}mjx-merror{display:inline-block;color:red;background-color:#ff0}mjx-mphantom{visibility:hidden}mjx-assistive-mml{top:0;left:0;clip:rect(1px,1px,1px,1px);user-select:none;position:absolute!important;padding:1px 0 0!important;border:0!important;display:block!important;width:auto!important;overflow:hidden!important}mjx-assistive-mml[display=block]{width:100%!important}mjx-math{display:inline-block;text-align:left;line-height:0;text-indent:0;font-style:normal;font-weight:400;font-size:100%;font-size-adjust:none;letter-spacing:normal;border-collapse:collapse;overflow-wrap:normal;word-spacing:normal;white-space:nowrap;direction:ltr;padding:1px 0}mjx-container[jax=CHTML][display=true]{display:block;text-align:center;margin:1em 0}mjx-container[jax=CHTML][display=true][width=full]{display:flex}mjx-container[jax=CHTML][display=true] mjx-math{padding:0}mjx-container[jax=CHTML][justify=left]{text-align:left}mjx-container[jax=CHTML][justify=right]{text-align:right}mjx-msub{display:inline-block;text-align:left}mjx-mi{display:inline-block;text-align:left}mjx-c{display:inline-block}mjx-utext{display:inline-block;padding:.75em 0 .2em}mjx-mo{display:inline-block;text-align:left}mjx-stretchy-h{display:inline-table;width:100%}mjx-stretchy-h>*{display:table-cell;width:0}mjx-stretchy-h>*>mjx-c{display:inline-block;transform:scaleX(1)}mjx-stretchy-h>*>mjx-c::before{display:inline-block;width:initial}mjx-stretchy-h>mjx-ext{overflow:clip visible;width:100%}mjx-stretchy-h>mjx-ext>mjx-c::before{transform:scaleX(500)}mjx-stretchy-h>mjx-ext>mjx-c{width:0}mjx-stretchy-h>mjx-beg>mjx-c{margin-right:-.1em}mjx-stretchy-h>mjx-end>mjx-c{margin-left:-.1em}mjx-stretchy-v{display:inline-block}mjx-stretchy-v>*{display:block}mjx-stretchy-v>mjx-beg{height:0}mjx-stretchy-v>mjx-end>mjx-c{display:block}mjx-stretchy-v>*>mjx-c{transform:scaleY(1);transform-origin:left center;overflow:hidden}mjx-stretchy-v>mjx-ext{display:block;height:100%;box-sizing:border-box;border:0 solid transparent;overflow:visible clip}mjx-stretchy-v>mjx-ext>mjx-c::before{width:initial;box-sizing:border-box}mjx-stretchy-v>mjx-ext>mjx-c{transform:scaleY(500) translateY(.075em);overflow:visible}mjx-mark{display:inline-block;height:0}mjx-texatom{display:inline-block;text-align:left}mjx-mn{display:inline-block;text-align:left}mjx-c::before{display:block;width:0}.MJX-TEX{font-family:MJXZERO,MJXTEX}.TEX-B{font-family:MJXZERO,MJXTEX-B}.TEX-I{font-family:MJXZERO,MJXTEX-I}.TEX-MI{font-family:MJXZERO,MJXTEX-MI}.TEX-BI{font-family:MJXZERO,MJXTEX-BI}.TEX-S1{font-family:MJXZERO,MJXTEX-S1}.TEX-S2{font-family:MJXZERO,MJXTEX-S2}.TEX-S3{font-family:MJXZERO,MJXTEX-S3}.TEX-S4{font-family:MJXZERO,MJXTEX-S4}.TEX-A{font-family:MJXZERO,MJXTEX-A}.TEX-C{font-family:MJXZERO,MJXTEX-C}.TEX-CB{font-family:MJXZERO,MJXTEX-CB}.TEX-FR{font-family:MJXZERO,MJXTEX-FR}.TEX-FRB{font-family:MJXZERO,MJXTEX-FRB}.TEX-SS{font-family:MJXZERO,MJXTEX-SS}.TEX-SSB{font-family:MJXZERO,MJXTEX-SSB}.TEX-SSI{font-family:MJXZERO,MJXTEX-SSI}.TEX-SC{font-family:MJXZERO,MJXTEX-SC}.TEX-T{font-family:MJXZERO,MJXTEX-T}.TEX-V{font-family:MJXZERO,MJXTEX-V}.TEX-VB{font-family:MJXZERO,MJXTEX-VB}mjx-stretchy-h mjx-c,mjx-stretchy-v mjx-c{font-family:MJXZERO,MJXTEX-S1,MJXTEX-S4,MJXTEX,MJXTEX-A!important}@font-face{font-family:MJXZERO;src:url("site-lib/fonts/mathjax_zero.woff") format("woff")}@font-face{font-family:MJXTEX;src:url("site-lib/fonts/mathjax_main-regular.woff") format("woff")}@font-face{font-family:MJXTEX-B;src:url("site-lib/fonts/mathjax_main-bold.woff") format("woff")}@font-face{font-family:MJXTEX-I;src:url("site-lib/fonts/mathjax_math-italic.woff") format("woff")}@font-face{font-family:MJXTEX-MI;src:url("site-lib/fonts/mathjax_main-italic.woff") format("woff")}@font-face{font-family:MJXTEX-BI;src:url("site-lib/fonts/mathjax_math-bolditalic.woff") format("woff")}@font-face{font-family:MJXTEX-S1;src:url("site-lib/fonts/mathjax_size1-regular.woff") format("woff")}@font-face{font-family:MJXTEX-S2;src:url("site-lib/fonts/mathjax_size2-regular.woff") format("woff")}@font-face{font-family:MJXTEX-S3;src:url("site-lib/fonts/mathjax_size3-regular.woff") format("woff")}@font-face{font-family:MJXTEX-S4;src:url("site-lib/fonts/mathjax_size4-regular.woff") format("woff")}@font-face{font-family:MJXTEX-A;src:url("site-lib/fonts/mathjax_ams-regular.woff") format("woff")}@font-face{font-family:MJXTEX-C;src:url("site-lib/fonts/mathjax_calligraphic-regular.woff") format("woff")}@font-face{font-family:MJXTEX-CB;src:url("site-lib/fonts/mathjax_calligraphic-bold.woff") format("woff")}@font-face{font-family:MJXTEX-FR;src:url("site-lib/fonts/mathjax_fraktur-regular.woff") format("woff")}@font-face{font-family:MJXTEX-FRB;src:url("site-lib/fonts/mathjax_fraktur-bold.woff") format("woff")}@font-face{font-family:MJXTEX-SS;src:url("site-lib/fonts/mathjax_sansserif-regular.woff") format("woff")}@font-face{font-family:MJXTEX-SSB;src:url("site-lib/fonts/mathjax_sansserif-bold.woff") format("woff")}@font-face{font-family:MJXTEX-SSI;src:url("site-lib/fonts/mathjax_sansserif-italic.woff") format("woff")}@font-face{font-family:MJXTEX-SC;src:url("site-lib/fonts/mathjax_script-regular.woff") format("woff")}@font-face{font-family:MJXTEX-T;src:url("site-lib/fonts/mathjax_typewriter-regular.woff") format("woff")}@font-face{font-family:MJXTEX-V;src:url("site-lib/fonts/mathjax_vector-regular.woff") format("woff")}@font-face{font-family:MJXTEX-VB;src:url("site-lib/fonts/mathjax_vector-bold.woff") format("woff")}mjx-c.mjx-c1D434.TEX-I::before{padding:.716em .75em 0 0;content:"A"}mjx-c.mjx-c1D456.TEX-I::before{padding:.661em .345em .011em 0;content:"i"}mjx-c.mjx-c3D::before{padding:.583em .778em .082em 0;content:"="}mjx-c.mjx-c2212::before{padding:.583em .778em .082em 0;content:"−"}mjx-c.mjx-c31::before{padding:.666em .5em 0 0;content:"1"}mjx-c.mjx-c2B::before{padding:.583em .778em .082em 0;content:"+"}mjx-c.mjx-c32::before{padding:.666em .5em 0 0;content:"2"}mjx-c.mjx-cD7::before{padding:.491em .778em 0 0;content:"×"}</style><div class="markdown-preview-sizer markdown-preview-section"><div class="header"><h1 class="page-title heading inline-title" id="test_0">test</h1><div class="data-bar"></div></div><div class="markdown-preview-pusher" style="width: 1px; height: 0.1px; margin-bottom: 0px;"></div><div class="el-h1"><h1 data-heading="각 문항별 보기 및 해설 (정답만 (정답) 표시)" dir="auto" class="heading" id="각_문항별_보기_및_해설_(정답만_(정답)_표시)_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>각 문항별 보기 및 해설 (정답만 (정답) 표시)</h1></div><div class="el-hr"><hr></div><div class="el-h2"><h2 data-heading="1. AWS Availability Zone" dir="auto" class="heading" id="1._AWS_Availability_Zone_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>1. AWS Availability Zone</h2></div><div class="el-p"><p dir="auto"><strong>문항:</strong> 다음중 AWS Availability Zone 의 설명으로 틀린 것은?</p></div><div class="el-ul"><ul class="has-list-bullet">
+<li data-line="0" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>
+<ol>
+<li data-line="0" dir="auto">AZ는 리전 내 물리적으로 분리된 전력 네트워킹 장치가 분리된 영역이며, 각 AZ 사이에는 물리적으로 100KM 정도 차이가 있다.  </li>
+</ol>
+<ul class="has-list-bullet">
+<li data-line="1" dir="auto"><span class="list-bullet"></span>실제로 AZ는 물리적으로 분리되어 있고, 거리도 수십~수백 km 차이일 수 있음.</li>
+</ul>
+</li>
+<li data-line="2" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>
+<ol start="2">
+<li data-line="2" dir="auto">하나의 리전에는 일반적으로 2~3개의 AZ로 구성이 되며, 동일한 리전내 AZ들은 전용 네트워크로 구성이 되어 빠른 속도를 보장한다.  </li>
+</ol>
+<ul class="has-list-bullet">
+<li data-line="3" dir="auto"><span class="list-bullet"></span>리전 내 여러 AZ가 전용 네트워크로 연결되어 있음.</li>
+</ul>
+</li>
+<li data-line="4" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>
+<ol start="3">
+<li data-line="4" dir="auto">AWS의 리전에는 코드가 있고 그 리전코드 뒤에 a,b,c.. 등으로 구분이되어 AZ 명을 구분한다.  </li>
+</ol>
+<ul class="has-list-bullet">
+<li data-line="5" dir="auto"><span class="list-bullet"></span>실제로 ap-northeast-2a 같은 방식으로 AZ를 구분함.</li>
+</ul>
+</li>
+<li data-line="6" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>
+<ol start="4">
+<li data-line="6" dir="auto">가용성을 높여 AZ 장애를 복구하기 위한 방법은 사용하고 있는 인스턴스를 동일한 AZ에 배치하는 것이다. (정답)  </li>
+</ol>
+<ul class="has-list-bullet">
+<li data-line="7" dir="auto"><span class="list-bullet"></span>가용성을 높이려면 인스턴스를 서로 다른 AZ에 분산해야 하며, 동일 AZ에만 배치하면 장애 시 모두 영향받음.</li>
+</ul>
+</li>
+</ul></div><div class="el-hr"><hr></div><div class="el-h2"><h2 data-heading="2. 가상머신과 컨테이너" dir="auto" class="heading" id="2._가상머신과_컨테이너_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>2. 가상머신과 컨테이너</h2></div><div class="el-p"><p dir="auto"><strong>문항:</strong> 가상머신과 컨테이너를 비교하는 내용 중 틀린 것은?</p></div><div class="el-ul"><ul class="has-list-bullet">
+<li data-line="0" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>
+<ol>
+<li data-line="0" dir="auto">가상머신에는 OS를 다양하게 사용할 수 있으며 GuestOS가 먼저 설치되고 필요한 Application을 설치하여 사용한다.  </li>
+</ol>
+<ul class="has-list-bullet">
+<li data-line="1" dir="auto"><span class="list-bullet"></span>가상머신은 Guest OS 위에 앱을 설치함.</li>
+</ul>
+</li>
+<li data-line="2" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>
+<ol start="2">
+<li data-line="2" dir="auto">컨테이너 환경에서는 GuestOS가 따로 없으며 필요한 Application을 컨테이너에 직접 설치하여 사용한다.  </li>
+</ol>
+<ul class="has-list-bullet">
+<li data-line="3" dir="auto"><span class="list-bullet"></span>컨테이너는 Host OS 커널을 공유하고, Guest OS가 없음.</li>
+</ul>
+</li>
+<li data-line="4" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>
+<ol start="3">
+<li data-line="4" dir="auto">비교적 컨테이너가 가상머신보다 이미지 사이즈가 작고 시작시간이 짧아 MSA 환경에서는 컨테이너가 더 활용도가 높다.  </li>
+</ol>
+<ul class="has-list-bullet">
+<li data-line="5" dir="auto"><span class="list-bullet"></span>컨테이너가 MSA에 더 적합함.</li>
+</ul>
+</li>
+<li data-line="6" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>
+<ol start="4">
+<li data-line="6" dir="auto">가상머신이나 컨테이너는 데이터를 관리할 때 연결된 스토리지에 저장을 하는데, 사용이 끝나면 스토리지 또한 함께 삭제되기 때문에 중요한 데이터는 따로 관리하는 것을 권장한다. (정답)  </li>
+</ol>
+<ul class="has-list-bullet">
+<li data-line="7" dir="auto"><span class="list-bullet"></span>스토리지는 인스턴스 종료 시 항상 삭제되는 것이 아니며, 별도 설정에 따라 유지될 수 있음.</li>
+</ul>
+</li>
+</ul></div><div class="el-hr"><hr></div><div class="el-h2"><h2 data-heading="3. 클라우드 기본" dir="auto" class="heading" id="3._클라우드_기본_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>3. 클라우드 기본</h2></div><div class="el-p"><p dir="auto"><strong>문항:</strong> 클라우드 유형에 대한 설명으로 옳은 것은?</p></div><div class="el-ul"><ul class="has-list-bullet">
+<li data-line="0" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>
+<ol>
+<li data-line="0" dir="auto">클라우드 컴퓨팅 서비스를 제공해주는 업체(CSP, Cloud Service Provider)에게 인프라에 필요한 자원들을 대여하여 사용하는 방식의 클라우드는 프라이빗 클라우드이다.  </li>
+</ol>
+<ul class="has-list-bullet">
+<li data-line="1" dir="auto"><span class="list-bullet"></span>CSP에서 자원 대여는 퍼블릭 클라우드임.</li>
+</ul>
+</li>
+<li data-line="2" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>
+<ol start="2">
+<li data-line="2" dir="auto">특정 기업, 특정 사용자만 사용하는 방식이며 서비스의 자원과 데이터는 기업의 데이터센터에 저장하는 방식의 클라우드는 퍼블릭 클라우드이다.  </li>
+</ol>
+<ul class="has-list-bullet">
+<li data-line="3" dir="auto"><span class="list-bullet"></span>이 설명은 프라이빗 클라우드에 해당함.</li>
+</ul>
+</li>
+<li data-line="4" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>
+<ol start="3">
+<li data-line="4" dir="auto">2개 이상의 서로 다른 클라우드를 사용하는 방식으로, 하나의 CSP에 종속되지 않기 위해 사용하는 방식은 멀티클라우드이다. (정답)  </li>
+</ol>
+<ul class="has-list-bullet">
+<li data-line="5" dir="auto"><span class="list-bullet"></span>멀티클라우드는 여러 CSP를 혼용하는 방식이 맞음.</li>
+</ul>
+</li>
+<li data-line="6" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>
+<ol start="4">
+<li data-line="6" dir="auto">기존 On-premise 에 구성되어 있는 인프라와 Public Cloud를 혼용하여 함께 사용하는 방식은 듀얼 클라우드 방식이다.  </li>
+</ol>
+<ul class="has-list-bullet">
+<li data-line="7" dir="auto"><span class="list-bullet"></span>일반적으로 하이브리드 클라우드라고 부름.</li>
+</ul>
+</li>
+</ul></div><div class="el-hr"><hr></div><div class="el-h2"><h2 data-heading="4. IT인프라 자동화" dir="auto" class="heading" id="4._IT인프라_자동화_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>4. IT인프라 자동화</h2></div><div class="el-p"><p dir="auto"><strong>문항:</strong> 다음 중 IT인프라 자동화에 대한 설명으로 맞지 않는 것은?</p></div><div class="el-ul"><ul class="has-list-bullet">
+<li data-line="0" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>
+<ol>
+<li data-line="0" dir="auto">자동화 기술은 일단 모든 IT 인프라 구성 요소를 완벽하게 설치하고 구성해 둔 다음에야 활용할 수 있다. (정답)  </li>
+</ol>
+<ul class="has-list-bullet">
+<li data-line="1" dir="auto"><span class="list-bullet"></span>자동화는 인프라 설치 및 구성 자체를 자동으로 처리하는 기술임.</li>
+</ul>
+</li>
+<li data-line="2" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>
+<ol start="2">
+<li data-line="2" dir="auto">자동화 기술을 사용하면 휴먼 에러를 줄이고 반복적인 작업을 보다 빨리 수행할 수 있다.  </li>
+</ol>
+<ul class="has-list-bullet">
+<li data-line="3" dir="auto"><span class="list-bullet"></span>자동화의 장점이 맞음.</li>
+</ul>
+</li>
+<li data-line="4" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>
+<ol start="3">
+<li data-line="4" dir="auto">수많은 IT인프라를 플레이북과 같은 템플릿을 사용해 업무로 만들고 워크플로우를 구성해 코드로써 자동화시키는 것이 IT인프라 자동화의 핵심이다.  </li>
+</ol>
+<ul class="has-list-bullet">
+<li data-line="5" dir="auto"><span class="list-bullet"></span>자동화의 핵심 설명이 맞음.</li>
+</ul>
+</li>
+<li data-line="6" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>
+<ol start="4">
+<li data-line="6" dir="auto">AIOps는 IT인프라 운영을 보다 효율적으로 하기 위해 AI/ML을 활용하는 것을 말한다.  </li>
+</ol>
+<ul class="has-list-bullet">
+<li data-line="7" dir="auto"><span class="list-bullet"></span>AIOps의 정의가 맞음.</li>
+</ul>
+</li>
+</ul></div><div class="el-hr"><hr></div><div class="el-h2"><h2 data-heading="5. AWS EC2" dir="auto" class="heading" id="5._AWS_EC2_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>5. AWS EC2</h2></div><div class="el-p"><p dir="auto"><strong>문항:</strong> EC2에 대한 설명으로 틀린 것은?</p></div><div class="el-ul"><ul class="has-list-bullet">
+<li data-line="0" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>
+<ol>
+<li data-line="0" dir="auto">AWS AMI 란 Amazon Machine Image의 약어로 EC2 가상머신으로 구동할 이미지를 의미한다.  </li>
+</ol>
+<ul class="has-list-bullet">
+<li data-line="1" dir="auto"><span class="list-bullet"></span>AMI 설명이 맞음.</li>
+</ul>
+</li>
+<li data-line="2" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>
+<ol start="2">
+<li data-line="2" dir="auto">Key pair는 생성시 다운로드 가능하고, 분실시 Console을 통해 언제든지 다운로드 할 수 있다. (정답) </li>
+</ol>
+<ul class="has-list-bullet">
+<li data-line="3" dir="auto"><span class="list-bullet"></span>Key pair는 생성 시에만 다운로드 가능하며, 분실 시 재다운로드 불가.</li>
+</ul>
+</li>
+<li data-line="4" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>
+<ol start="3">
+<li data-line="4" dir="auto">보안그룹에서는 인바운드 규칙 또는 아웃바운드 규칙을 통해 내/외부 트래픽을 관리한다.  </li>
+</ol>
+<ul class="has-list-bullet">
+<li data-line="5" dir="auto"><span class="list-bullet"></span>보안그룹 설명이 맞음.</li>
+</ul>
+</li>
+<li data-line="6" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>
+<ol start="4">
+<li data-line="6" dir="auto">EC2의 인스턴스는 가상머신을 의미하며 가상화된 서버를 제공해 주는 서비스이다.  </li>
+</ol>
+<ul class="has-list-bullet">
+<li data-line="7" dir="auto"><span class="list-bullet"></span>EC2 인스턴스 설명이 맞음.</li>
+</ul>
+</li>
+</ul></div><div class="el-hr"><hr></div><div class="el-h2"><h2 data-heading="6. AWS ASG" dir="auto" class="heading" id="6._AWS_ASG_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>6. AWS ASG</h2></div><div class="el-p"><p dir="auto"><strong>문항:</strong> 오토스케일링 그룹의 역할 및 기능으로 보기 어려운 것은?</p></div><div class="el-ul"><ul class="has-list-bullet">
+<li data-line="0" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>
+<ol>
+<li data-line="0" dir="auto">스케일인/아웃  </li>
+</ol>
+<ul class="has-list-bullet">
+<li data-line="1" dir="auto"><span class="list-bullet"></span>오토스케일링의 대표 기능임.</li>
+</ul>
+</li>
+<li data-line="2" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>
+<ol start="2">
+<li data-line="2" dir="auto">Public한 인터넷 환경으로의 경로 설정 (정답)  </li>
+</ol>
+<ul class="has-list-bullet">
+<li data-line="3" dir="auto"><span class="list-bullet"></span>네트워크 경로 설정은 오토스케일링 그룹이 아니라 VPC, 라우팅 등에서 담당함.</li>
+</ul>
+</li>
+<li data-line="4" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>
+<ol start="3">
+<li data-line="4" dir="auto">시작템플릿을 통한 자동 배포  </li>
+</ol>
+<ul class="has-list-bullet">
+<li data-line="5" dir="auto"><span class="list-bullet"></span>시작템플릿을 활용한 자동 배포가 가능함.</li>
+</ul>
+</li>
+<li data-line="6" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>
+<ol start="4">
+<li data-line="6" dir="auto">자동 확장/축소시 알람기능  </li>
+</ol>
+<ul class="has-list-bullet">
+<li data-line="7" dir="auto"><span class="list-bullet"></span>오토스케일링에서 알람 기능 제공함.</li>
+</ul>
+</li>
+</ul></div><div class="el-hr"><hr></div><div class="el-h2"><h2 data-heading="7. AWS Storage" dir="auto" class="heading" id="7._AWS_Storage_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>7. AWS Storage</h2></div><div class="el-p"><p dir="auto"><strong>문항:</strong> 다음 중 AWS Storage 서비스에 대한 설명으로 틀린 것은?</p></div><div class="el-ul"><ul class="has-list-bullet">
+<li data-line="0" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>
+<ol>
+<li data-line="0" dir="auto">AWS의 Storage 서비스에는 EBS, EFS, S3 등이 있다.  </li>
+</ol>
+<ul class="has-list-bullet">
+<li data-line="1" dir="auto"><span class="list-bullet"></span>세 서비스 모두 AWS의 대표 스토리지임.</li>
+</ul>
+</li>
+<li data-line="2" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>
+<ol start="2">
+<li data-line="2" dir="auto">EC2 인스턴스를 위한 비 휘발성 블록스토리지이며, 디스크를 추가하거나 스케일 업이 가능한 서비스는 EBS 이다.  </li>
+</ol>
+<ul class="has-list-bullet">
+<li data-line="3" dir="auto"><span class="list-bullet"></span>EBS 설명이 맞음.</li>
+</ul>
+</li>
+<li data-line="4" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>
+<ol start="3">
+<li data-line="4" dir="auto">오브젝트를 저장하는 컨테이너로 S3에서 사용되며 AWS Account 당 최대 개수가 100개 설정할 수 있는 것은 S3 Container 이다. (정답)  </li>
+</ol>
+<ul class="has-list-bullet">
+<li data-line="5" dir="auto"><span class="list-bullet"></span>S3에서 오브젝트 저장 단위는 '버킷'이며, 'S3 Container'는 공식 용어가 아님.</li>
+</ul>
+</li>
+<li data-line="6" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>
+<ol start="4">
+<li data-line="6" dir="auto">스냅샷을 활용하여, AZ간 복사, 리전간 복사도 가능하며, 이 스냅샷을 S3에 저장하는 볼륨 서비스는 EBS이다.  </li>
+</ol>
+<ul class="has-list-bullet">
+<li data-line="7" dir="auto"><span class="list-bullet"></span>EBS 스냅샷 설명이 맞음.</li>
+</ul>
+</li>
+</ul></div><div class="el-hr"><hr></div><div class="el-h2"><h2 data-heading="8. AWS VPC" dir="auto" class="heading" id="8._AWS_VPC_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>8. AWS VPC</h2></div><div class="el-p"><p dir="auto"><strong>문항:</strong> 다음 중 VPC에 대한 설명으로 틀린 것은?</p></div><div class="el-ul"><ul class="has-list-bullet">
+<li data-line="0" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>
+<ol>
+<li data-line="0" dir="auto">VPC는 부족한 IP 자원의 효율적인 관리를 위해 사용한다.  </li>
+</ol>
+<ul class="has-list-bullet">
+<li data-line="1" dir="auto"><span class="list-bullet"></span>VPC의 목적 중 하나임.</li>
+</ul>
+</li>
+<li data-line="2" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>
+<ol start="2">
+<li data-line="2" dir="auto">VPC 내부는 모두 외부 IP(공인 IP)를 사용한다. (정답)  </li>
+</ol>
+<ul class="has-list-bullet">
+<li data-line="3" dir="auto"><span class="list-bullet"></span>VPC 내부는 기본적으로 사설 IP를 사용함.</li>
+</ul>
+</li>
+<li data-line="4" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>
+<ol start="3">
+<li data-line="4" dir="auto">VPC에서는 CIDR를 이용하여 IP의 대역을 설정하고 관리한다.  </li>
+</ol>
+<ul class="has-list-bullet">
+<li data-line="5" dir="auto"><span class="list-bullet"></span>CIDR로 IP 대역 설정이 맞음.</li>
+</ul>
+</li>
+<li data-line="6" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>
+<ol start="4">
+<li data-line="6" dir="auto">VPC Subnet은 VPC의 CIDR를 한 번 더 적절히 나누어 대역을 설정하고 사용한다.  </li>
+</ol>
+<ul class="has-list-bullet">
+<li data-line="7" dir="auto"><span class="list-bullet"></span>Subnet 설명이 맞음.</li>
+</ul>
+</li>
+</ul></div><div class="el-hr"><hr></div><div class="el-h2"><h2 data-heading="9. 컨테이너 개념" dir="auto" class="heading" id="9._컨테이너_개념_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>9. 컨테이너 개념</h2></div><div class="el-p"><p dir="auto"><strong>문항:</strong> 다음 중 컨테이너에 대한 설명으로 올바른 것은?</p></div><div class="el-ul"><ul class="has-list-bullet">
+<li data-line="0" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>
+<ol>
+<li data-line="0" dir="auto">특정 하드웨어 위에 가상의 공간을 생성하는 개념이며, OS 단위로 공간을 생성한다  </li>
+</ol>
+<ul class="has-list-bullet">
+<li data-line="1" dir="auto"><span class="list-bullet"></span>컨테이너는 OS 단위가 아니라 프로세스 단위로 격리함.</li>
+</ul>
+</li>
+<li data-line="2" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>
+<ol start="2">
+<li data-line="2" dir="auto">컨테이너에 올라간 애플리케이션은 서로 격리되어 독립적으로 운영된다 (정답)  </li>
+</ol>
+<ul class="has-list-bullet">
+<li data-line="3" dir="auto"><span class="list-bullet"></span>컨테이너의 핵심 특성임.</li>
+</ul>
+</li>
+<li data-line="4" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>
+<ol start="3">
+<li data-line="4" dir="auto">앱을 가상의 공간에 격리해서 사용할 수 있는 컨테이너 기술은 도커가 유일하다  </li>
+</ol>
+<ul class="has-list-bullet">
+<li data-line="5" dir="auto"><span class="list-bullet"></span>도커 외에도 다양한 컨테이너 기술이 있음(LXC 등).</li>
+</ul>
+</li>
+<li data-line="6" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>
+<ol start="4">
+<li data-line="6" dir="auto">다수의 컨테이너를 효율적으로 관리하기 위해 탄생한 쿠버네티스는 유료 소프트웨어이다  </li>
+</ol>
+<ul class="has-list-bullet">
+<li data-line="7" dir="auto"><span class="list-bullet"></span>쿠버네티스는 오픈소스, 무료임.</li>
+</ul>
+</li>
+</ul></div><div class="el-hr"><hr></div><div class="el-h2"><h2 data-heading="10. 클라우드 기본" dir="auto" class="heading" id="10._클라우드_기본_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>10. 클라우드 기본</h2></div><div class="el-p"><p dir="auto"><strong>문항:</strong> 가상화에 대한 설명중 틀린 것은?</p></div><div class="el-ul"><ul class="has-list-bullet">
+<li data-line="0" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>
+<ol>
+<li data-line="0" dir="auto">하이퍼바이저는 하나의 시스템에서 다수의 운영체제를 실행할 수 있게 한다.  </li>
+</ol>
+<ul class="has-list-bullet">
+<li data-line="1" dir="auto"><span class="list-bullet"></span>하이퍼바이저 설명이 맞음.</li>
+</ul>
+</li>
+<li data-line="2" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>
+<ol start="2">
+<li data-line="2" dir="auto">물리적인 리소스를 가상으로 분할하여 여러 가상 운영체제가 사용하게 설정한다.  </li>
+</ol>
+<ul class="has-list-bullet">
+<li data-line="3" dir="auto"><span class="list-bullet"></span>가상화의 정의가 맞음.</li>
+</ul>
+</li>
+<li data-line="4" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>
+<ol start="3">
+<li data-line="4" dir="auto">가상화 기술중 가상머신은 MSA 환경에서 적합하게 사용된다. (정답)  </li>
+</ol>
+<ul class="has-list-bullet">
+<li data-line="5" dir="auto"><span class="list-bullet"></span>MSA 환경에는 가상머신보다 컨테이너가 더 적합함.</li>
+</ul>
+</li>
+<li data-line="6" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>
+<ol start="4">
+<li data-line="6" dir="auto">가상머신에서는 GuestOS를 통해 다양한 운영체제를 선택하여 사용할 수 있다. (Linux, windows 등)  </li>
+</ol>
+<ul class="has-list-bullet">
+<li data-line="7" dir="auto"><span class="list-bullet"></span>실제로 Guest OS로 다양한 운영체제 선택 가능함.</li>
+</ul>
+</li>
+</ul></div><div class="el-hr"><hr></div><div class="footer"><div class="data-bar"></div></div></div></div></div><div id="right-content" class="leaf" style="--sidebar-width: var(--sidebar-width-right);"><div id="right-sidebar" class="sidebar"><div class="sidebar-handle"></div><div class="sidebar-topbar"><div class="topbar-content"><label class="theme-toggle-container" for="theme-toggle-input" id=""><input class="theme-toggle-input" type="checkbox" id="theme-toggle-input"><div class="toggle-background"></div></label></div><div class="clickable-icon sidebar-collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><path d="M21 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H21C22.1046 21 23 20.1046 23 19V5C23 3.89543 22.1046 3 21 3Z"></path><path d="M10 4V20"></path><path d="M4 7H7"></path><path d="M4 10H7"></path><path d="M4 13H7"></path></svg></div></div><div class="sidebar-content-wrapper"><div id="right-sidebar-content" class="leaf-content"><div class="graph-view-wrapper"><div class="feature-header"><div class="feature-title">Interactive Graph</div></div><div class="graph-view-placeholder">
+		<div class="graph-view-container">
+			<div class="graph-icon graph-expand" role="button" aria-label="Expand" data-tooltip-position="top"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></div>
+			<div class="graph-icon graph-global" role="button" aria-label="Global Graph" data-tooltip-position="top"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-git-fork"><circle cx="12" cy="18" r="3"></circle><circle cx="6" cy="6" r="3"></circle><circle cx="18" cy="6" r="3"></circle><path d="M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9"></path><path d="M12 12v3"></path></svg></div>
+			<canvas id="graph-canvas" class="hide" width="512px" height="512px"></canvas>
+		</div>
+		</div></div><div id="outline" class=" tree-container"><div class="feature-header"><div class="feature-title">Table Of Contents</div><button class="clickable-icon nav-action-button tree-collapse-all" aria-label="Collapse All"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></svg></button></div><div class="tree-item" data-depth="1"><a class="tree-item-self is-clickable" href="400-인프라-&amp;-아키텍처/test.html#test_0" data-path="#test_0"><div class="tree-item-inner heading-link" heading-name="test">test</div></a><div class="tree-item-children"></div></div><div class="tree-item mod-collapsible" data-depth="1"><a class="tree-item-self is-clickable mod-collapsible" href="400-인프라-&amp;-아키텍처/test.html#각_문항별_보기_및_해설_(정답만_(정답)_표시)_0" data-path="#각_문항별_보기_및_해설_(정답만_(정답)_표시)_0"><div class="tree-item-icon collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><div class="tree-item-inner heading-link" heading-name="각 문항별 보기 및 해설 (정답만 (정답) 표시)">각 문항별 보기 및 해설 (정답만 (정답) 표시)</div></a><div class="tree-item-children"><div class="tree-item" data-depth="2"><a class="tree-item-self is-clickable" href="400-인프라-&amp;-아키텍처/test.html#1._AWS_Availability_Zone_0" data-path="#1._AWS_Availability_Zone_0"><div class="tree-item-inner heading-link" heading-name="1. AWS Availability Zone">1. AWS Availability Zone</div></a><div class="tree-item-children"></div></div><div class="tree-item" data-depth="2"><a class="tree-item-self is-clickable" href="400-인프라-&amp;-아키텍처/test.html#2._가상머신과_컨테이너_0" data-path="#2._가상머신과_컨테이너_0"><div class="tree-item-inner heading-link" heading-name="2. 가상머신과 컨테이너">2. 가상머신과 컨테이너</div></a><div class="tree-item-children"></div></div><div class="tree-item" data-depth="2"><a class="tree-item-self is-clickable" href="400-인프라-&amp;-아키텍처/test.html#3._클라우드_기본_0" data-path="#3._클라우드_기본_0"><div class="tree-item-inner heading-link" heading-name="3. 클라우드 기본">3. 클라우드 기본</div></a><div class="tree-item-children"></div></div><div class="tree-item" data-depth="2"><a class="tree-item-self is-clickable" href="400-인프라-&amp;-아키텍처/test.html#4._IT인프라_자동화_0" data-path="#4._IT인프라_자동화_0"><div class="tree-item-inner heading-link" heading-name="4. IT인프라 자동화">4. IT인프라 자동화</div></a><div class="tree-item-children"></div></div><div class="tree-item" data-depth="2"><a class="tree-item-self is-clickable" href="400-인프라-&amp;-아키텍처/test.html#5._AWS_EC2_0" data-path="#5._AWS_EC2_0"><div class="tree-item-inner heading-link" heading-name="5. AWS EC2">5. AWS EC2</div></a><div class="tree-item-children"></div></div><div class="tree-item" data-depth="2"><a class="tree-item-self is-clickable" href="400-인프라-&amp;-아키텍처/test.html#6._AWS_ASG_0" data-path="#6._AWS_ASG_0"><div class="tree-item-inner heading-link" heading-name="6. AWS ASG">6. AWS ASG</div></a><div class="tree-item-children"></div></div><div class="tree-item" data-depth="2"><a class="tree-item-self is-clickable" href="400-인프라-&amp;-아키텍처/test.html#7._AWS_Storage_0" data-path="#7._AWS_Storage_0"><div class="tree-item-inner heading-link" heading-name="7. AWS Storage">7. AWS Storage</div></a><div class="tree-item-children"></div></div><div class="tree-item" data-depth="2"><a class="tree-item-self is-clickable" href="400-인프라-&amp;-아키텍처/test.html#8._AWS_VPC_0" data-path="#8._AWS_VPC_0"><div class="tree-item-inner heading-link" heading-name="8. AWS VPC">8. AWS VPC</div></a><div class="tree-item-children"></div></div><div class="tree-item" data-depth="2"><a class="tree-item-self is-clickable" href="400-인프라-&amp;-아키텍처/test.html#9._컨테이너_개념_0" data-path="#9._컨테이너_개념_0"><div class="tree-item-inner heading-link" heading-name="9. 컨테이너 개념">9. 컨테이너 개념</div></a><div class="tree-item-children"></div></div><div class="tree-item" data-depth="2"><a class="tree-item-self is-clickable" href="400-인프라-&amp;-아키텍처/test.html#10._클라우드_기본_0" data-path="#10._클라우드_기본_0"><div class="tree-item-inner heading-link" heading-name="10. 클라우드 기본">10. 클라우드 기본</div></a><div class="tree-item-children"></div></div></div></div></div></div></div><script defer="">let rs = document.querySelector("#right-sidebar"); rs.classList.toggle("is-collapsed", window.innerWidth < 768); rs.style.setProperty("--sidebar-width", localStorage.getItem("sidebar-right-width"));</script></div></div></div></div></body></html>
