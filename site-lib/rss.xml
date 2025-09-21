@@ -1,5 +1,46 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><parsererror xmlns="http://www.w3.org/1999/xhtml" style="display: block; white-space: pre; border: 2px solid #c77; padding: 0 1em 0 1em; margin: 1em; background-color: #fdd; color: black"><h3>This page contains the following errors:</h3><div style="font-family:monospace;font-size:12px">error on line 1430 at column 528: Invalid bytes in character encoding
-</div><h3>Below is a rendering of the page up to the first error.</h3></parsererror><channel><title><![CDATA[Obsidian Vault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>site-lib/media/favicon.png</url><title>Obsidian Vault</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sun, 14 Sep 2025 14:15:10 GMT</lastBuildDate><atom:link href="site-lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sun, 14 Sep 2025 14:13:40 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[webflux vs mvc 관련 의문점]]></title><description><![CDATA[
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Obsidian Vault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>site-lib/media/favicon.png</url><title>Obsidian Vault</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sun, 21 Sep 2025 17:51:29 GMT</lastBuildDate><atom:link href="site-lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sun, 21 Sep 2025 17:51:26 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[home]]></title><description><![CDATA[MJ's Brain
+지식을 체계화하기 위해 정리해 나가고 있습니다.
+큰 토픽별로 분류 각 폴더로 분류 되어있습니다. 프로젝트 별 분류 <a class="internal-link" data-href="99-Settings/1-Topics/📖 800 프로젝트.md" href="99-settings/1-topics/📖-800-프로젝트.html" target="_self" rel="noopener nofollow">📖 800 프로젝트</a> <br>이 이전에 썼던 blog : <a rel="noopener nofollow" class="external-link is-unresolved" href="https://mj-hope.tistory.com/?page=4" target="_self">https://mj-hope.tistory.com/?page=4</a>]]></description><link>home.html</link><guid isPermaLink="false">home.md</guid><pubDate>Sun, 21 Sep 2025 17:51:12 GMT</pubDate></item><item><title><![CDATA[📚 801 다 맡게팅]]></title><description><![CDATA[
+회원, 매장관리
+AI 콘텐츠 생성
+SNS 자동업로드
+성과 분석
+<img alt="📚 801 다 맡게팅-1758471239595.png" height="246" src="99-settings/1-topics/assets/📚-801-다-맡게팅-1758471239595.png" target="_self" style="width: 382px; max-width: 100%;">
+🤔 issues <br><a class="internal-link" data-href="../../300-백엔드개발/다른 서비스의 데이터가 필요할 때.md" href="300-백엔드개발/다른-서비스의-데이터가-필요할-때.html" target="_self" rel="noopener nofollow">다른 서비스의 데이터가 필요할 때</a>
+<br><a class="internal-link" data-href="../../400-인프라 &amp; 아키텍처/카프카 이벤트 테스트를 어떻게 할까.md" href="400-인프라-&amp;-아키텍처/카프카-이벤트-테스트를-어떻게-할까.html" target="_self" rel="noopener nofollow">카프카 이벤트 테스트를 어떻게 할까</a>
+<br><a class="internal-link" data-href="../../400-인프라 &amp; 아키텍처/외부에서 내부 서비스를 접근 못하게...md" href="400-인프라-&amp;-아키텍처/외부에서-내부-서비스를-접근-못하게...html" target="_self" rel="noopener nofollow">외부에서 내부 서비스를 접근 못하게..</a>
+<br><a class="internal-link" data-href="../../300-백엔드개발/DTO를 어따둬야 깔끔할까.md" href="300-백엔드개발/dto를-어따둬야-깔끔할까.html" target="_self" rel="noopener nofollow">DTO를 어따둬야 깔끔할까</a> 🚨 error <br><a class="internal-link" data-href="../../400-인프라 &amp; 아키텍처/Error - 장시간 요청 Cloudfront timeout.md" href="400-인프라-&amp;-아키텍처/error-장시간-요청-cloudfront-timeout.html" target="_self" rel="noopener nofollow">Error - 장시간 요청 Cloudfront timeout</a>
+<br><a class="internal-link" data-href="../../300-백엔드개발/Error - cookie 역직렬화 문제.md" href="300-백엔드개발/error-cookie-역직렬화-문제.html" target="_self" rel="noopener nofollow">Error - cookie 역직렬화 문제</a>
+<br><a class="internal-link" data-href="../../300-백엔드개발/Error - transaction error.md" href="300-백엔드개발/error-transaction-error.html" target="_self" rel="noopener nofollow">Error - transaction error</a>
+<br><a class="internal-link" data-href="../../300-백엔드개발/Error-websocket메세지 보내기 전 종료.md" href="300-백엔드개발/error-websocket메세지-보내기-전-종료.html" target="_self" rel="noopener nofollow">Error-websocket메세지 보내기 전 종료</a> 🧠 learned <br><a data-href="webflux vs mvc 관련 의문점" href="300-백엔드개발/webflux-vs-mvc-관련-의문점.html" class="internal-link" target="_self" rel="noopener nofollow">webflux vs mvc 관련 의문점</a>
+<br><a class="internal-link" data-href="../../300-백엔드개발/다양한 oauth 인증 방식.md" href="300-백엔드개발/다양한-oauth-인증-방식.html" target="_self" rel="noopener nofollow">다양한 oauth 인증 방식</a>
+<br><a class="internal-link" data-href="../../400-인프라 &amp; 아키텍처/kafka 메세지 전송.md" href="400-인프라-&amp;-아키텍처/kafka-메세지-전송.html" target="_self" rel="noopener nofollow">kafka 메세지 전송</a>
+<br><a class="internal-link" data-href="../../400-인프라 &amp; 아키텍처/헥사고날 아키텍처.md" href="400-인프라-&amp;-아키텍처/헥사고날-아키텍처.html" target="_self" rel="noopener nofollow">헥사고날 아키텍처</a>
+<br><a class="internal-link" data-href="../../300-백엔드개발/proxy.md" href="300-백엔드개발/proxy.html" target="_self" rel="noopener nofollow">proxy</a> ]]></description><link>99-settings/1-topics/📚-801-다-맡게팅.html</link><guid isPermaLink="false">99-Settings/1-Topics/📚 801 다 맡게팅.md</guid><pubDate>Sun, 21 Sep 2025 16:50:24 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src="."&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[proxy]]></title><description><![CDATA[forward proxy reverse proxy
+nginx]]></description><link>300-백엔드개발/proxy.html</link><guid isPermaLink="false">300-백엔드개발/proxy.md</guid><pubDate>Sun, 21 Sep 2025 16:48:21 GMT</pubDate></item><item><title><![CDATA[DTO를 어따둬야 깔끔할까]]></title><link>300-백엔드개발/dto를-어따둬야-깔끔할까.html</link><guid isPermaLink="false">300-백엔드개발/DTO를 어따둬야 깔끔할까.md</guid><pubDate>Sun, 21 Sep 2025 16:45:42 GMT</pubDate></item><item><title><![CDATA[외부에서 내부 서비스를 접근 못하게..]]></title><description><![CDATA[aws and docker설정
+터널링]]></description><link>400-인프라-&amp;-아키텍처/외부에서-내부-서비스를-접근-못하게...html</link><guid isPermaLink="false">400-인프라 &amp; 아키텍처/외부에서 내부 서비스를 접근 못하게...md</guid><pubDate>Sun, 21 Sep 2025 16:44:55 GMT</pubDate></item><item><title><![CDATA[다른 서비스의 데이터가 필요할 때]]></title><description><![CDATA[성과분석 서비스에서 sns에서 성과분석을 하기위한 데이터를 매일 밤11시에 수집하도록 설계했다. 이때 sns서비스의 모든 유저계정,모든 게시물정보가 필요했다.<img alt="다른 서비스의 데이터가 필요할 때-1757923292109.png" src="300-백엔드개발/assets/다른-서비스의-데이터가-필요할-때-1757923292109.png" target="_self">
+장점 분석서비스에서 별도의 디비가 필요없음 단점
+- 모든 유저와 게시물에 대해 받아야함
+- But, 한번에 이벤트 발행해서 모든 데이터값을 얻기힘듬
+- 이벤트는 최대 1mb만큼만 전송가능
+- Therefore, n개단위로 잘라서 받아야함
+- 이벤트 발행 개수 : 올림( total / n) * 2 매일 모든 데이터를 다른서비스에서 가져오는 것은 비효율적이고 이서비스에도 부하를 일으킨다고 생각됨 <br><img alt="다른 서비스의 데이터가 필요할 때-1757923953865.png" src="300-백엔드개발/assets/다른-서비스의-데이터가-필요할-때-1757923953865.png" target="_self">
+장점 sns-service에 부하가 준다
+이벤트발행횟수가 압도적으로 준다
+데이터 얻기까지의 속도가 빠르고 간결하다 단점 sns서비스의 디비와 일관성 있게 유지해야한다 일시적인 불일치 발생
+혹은 이를 보완하기 위한 다른 추가 설정이나 로직을 짜야한다. <br><a data-href="MSA 데이터 불일치" href="300-백엔드개발/msa-데이터-불일치.html" class="internal-link" target="_self" rel="noopener nofollow">MSA 데이터 불일치</a>
+<br><a rel="noopener nofollow" class="external-link is-unresolved" href="https://curiousjinan.tistory.com/entry/kafka-message-delivery-guarantees" target="_self">https://curiousjinan.tistory.com/entry/kafka-message-delivery-guarantees</a> 분석서비스에 중복디비를 구성하는 방식을 정하였다.
+매 성과분석마다 on demand방식으로 요청받아 처리하는 것이 사용자가 많아질 시 등비수열 형태로 크게 늘어날 것이다.
+자주 바뀌는 데이터가 아님을 감안하면 중복 디비 만들때와의 부하차이가 매우 크다 현재 user와 게시물관련 id 값, 타입등을 받는다. 즉 update도 일어나지 않는다.(create or delete) 빠르게 적용되어야할 필요도 없다
+]]></description><link>300-백엔드개발/다른-서비스의-데이터가-필요할-때.html</link><guid isPermaLink="false">300-백엔드개발/다른 서비스의 데이터가 필요할 때.md</guid><dc:creator><![CDATA[Jeon MinJi]]></dc:creator><pubDate>Sun, 21 Sep 2025 16:43:35 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src="."&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[MJ's Brain]]></title><description><![CDATA[지식을 체계화하기 위해 정리해 나가고 있습니다.
+큰 토픽별로 분류 각 폴더로 분류 되어있습니다. 프로젝트 별 분류 <a class="internal-link" data-href="99-Settings/1-Topics/📖 800 프로젝트.md" href="99-settings/1-topics/📖-800-프로젝트.html" target="_self" rel="noopener nofollow">📖 800 프로젝트</a> <br>이 이전에 썼던 blog : <a rel="noopener nofollow" class="external-link is-unresolved" href="https://mj-hope.tistory.com/?page=4" target="_self">https://mj-hope.tistory.com/?page=4</a>]]></description><link>mj's-brain.html</link><guid isPermaLink="false">MJ's Brain.md</guid><pubDate>Sun, 21 Sep 2025 16:37:28 GMT</pubDate></item><item><title><![CDATA[spring filter, servlet]]></title><description><![CDATA[필터,서블릿은 &nbsp;자바 표준 인터페이스임
+요청이 들어오면:
+서버(WAS)가 요청을 받음
+필터 체인(Filter Chain)이 호출되고, 각 필터의 로직이 순서대로 처리됨
+마지막 필터가 서블릿(Servlet)에게 요청을 전달
+서블릿이 요청을 받아 스프링 DispatcherServlet 등으로 연결해 컨트롤러를 실행
+처리 완료 후 응답이 서블릿, 필터를 다시 거쳐 클라이언트로 전달
+]]></description><link>300-백엔드개발/spring-filter,-servlet.html</link><guid isPermaLink="false">300-백엔드개발/spring filter, servlet.md</guid><pubDate>Sun, 21 Sep 2025 16:34:34 GMT</pubDate></item><item><title><![CDATA[webflux vs mvc 관련 의문점]]></title><description><![CDATA[
 이미 많이 있지만 webflux와 spring mvc를 나의 언어로 정리하고 궁금한 것을 찾아보고자 한다
 <a data-href="동기 vs 비동기, 블로킹 vs 논블로킹" href="700-컴퓨터과학/동기-vs-비동기,-블로킹-vs-논블로킹.html" class="internal-link" target="_self" rel="noopener nofollow">동기 vs 비동기, 블로킹 vs 논블로킹</a>
 MVC Thread-per-Request : 1요청에 1스레드
@@ -8,7 +49,7 @@ Blocking WebFlux Event Loop
 Netty
 NonBlocking 틀렷으면 이야기 부탁드립니다...CompletableFuture같은 것들 말이지
 다 블로킹되면 왜 비동기 쓰지?SpringMVC도 모두 blocking은 아니다! 서버 레벨 I/O만 블러킹된다는것이다.<br>
-예를 들어 <a data-href="filter, servlet" href="300-백엔드개발/filter,-servlet.html" class="internal-link" target="_self" rel="noopener nofollow">filter, servlet</a>, client요청을 읽는 과정에서 블로킹이 발생한다<br>
+예를 들어 <a data-href="spring filter, servlet" href="300-백엔드개발/spring-filter,-servlet.html" class="internal-link" target="_self" rel="noopener nofollow">spring filter, servlet</a>, client요청을 읽는 과정에서 블로킹이 발생한다<br>
 <a data-tooltip-position="top" aria-label="https://velog.io/@duskafka/%EA%B8%B0%EC%A1%B4-%EC%84%9C%EB%B8%94%EB%A6%BF-%EA%B8%B0%EB%B0%98-%EC%95%A0%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98%EC%9D%98-%ED%95%9C%EA%B3%84-%EB%B9%84%EB%8F%99%EA%B8%B0%EC%99%80-%EB%85%BC%EB%B8%94%EB%A1%9C%ED%82%B9-%EA%B4%80%EC%A0%90%EC%97%90%EC%84%9C-%EB%B3%B8-%ED%95%9C%EA%B3%84%EC%A0%90" rel="noopener nofollow" class="external-link is-unresolved" href="https://velog.io/@duskafka/%EA%B8%B0%EC%A1%B4-%EC%84%9C%EB%B8%94%EB%A6%BF-%EA%B8%B0%EB%B0%98-%EC%95%A0%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98%EC%9D%98-%ED%95%9C%EA%B3%84-%EB%B9%84%EB%8F%99%EA%B8%B0%EC%99%80-%EB%85%BC%EB%B8%94%EB%A1%9C%ED%82%B9-%EA%B4%80%EC%A0%90%EC%97%90%EC%84%9C-%EB%B3%B8-%ED%95%9C%EA%B3%84%EC%A0%90" target="_self">기존 서블릿 기반 애플리케이션의 한계</a>
 But!! WebFlux는 첨부터 끝까지 Non-blocking방식으로 할 수 있음!즉 java코드레벨 비지니스로직은 Java표준에서 제공하는 방식으로 비동기,non-blocking처리될 수 있다.
 CompletableFuture은 Java표준에서 제공하는 방식중 하나로 jvm에서 멀티 스레드 방식으로 구현된다웹v8엔진에서 이벤트루프 방식으로 작동하는 방식이랑 비슷한가한 스레드에서 여러 I/O를 처리가능함 How? with EventLoop.<br>
@@ -17,7 +58,630 @@ CompletableFuture은 Java표준에서 제공하는 방식중 하나로 jvm에서
 그렇다 비슷하다 이벤트 루프가 이벤트가 있는지 확인하고 꺼네서 이벤트를 수행하는 방식이다.<br>
 <img alt="webflux vs mvc-1757788537542.png" src="300-백엔드개발/assets/webflux-vs-mvc-1757788537542.png" target="_self">Reactor는 일종의 패턴이다 이벤트루프는 이러한 패턴을 구현하기 위한 방식이다.옵저버 패턴도 많이 쓰인다고 들었는데 두개 언제 쓰이지?
 내 생각에는 하드웨어를받아서 처리하는 I/O에서는 이벤트루프 , 소프트웨어단으로 넘어가선 옵저버쓸꺼같은데이벤트루프는 하드웨어,Lowlevel과 연관된 I/O작업에 쓰이고 이게 소프트웨어 단으로 넘어가서 객체간에 무언가 이벤트를 트래킹하기위해서는 옵저버 패턴을 씀
-리액티브시스템에도 두개 섞어서 많이쓴다캄]]></description><link>300-백엔드개발/webflux-vs-mvc-관련-의문점.html</link><guid isPermaLink="false">300-백엔드개발/webflux vs mvc 관련 의문점.md</guid><pubDate>Sat, 13 Sep 2025 18:52:39 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src="."&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[webflux vs mvc-1757788537542]]></title><description><![CDATA[<img src="300-백엔드개발/assets/webflux-vs-mvc-1757788537542.png" target="_self">]]></description><link>300-백엔드개발/assets/webflux-vs-mvc-1757788537542.html</link><guid isPermaLink="false">300-백엔드개발/assets/webflux vs mvc-1757788537542.png</guid><pubDate>Sat, 13 Sep 2025 18:35:37 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src="."&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[webflux vs mvc-1757788425212]]></title><description><![CDATA[<img src="300-백엔드개발/assets/webflux-vs-mvc-1757788425212.png" target="_self">]]></description><link>300-백엔드개발/assets/webflux-vs-mvc-1757788425212.html</link><guid isPermaLink="false">300-백엔드개발/assets/webflux vs mvc-1757788425212.png</guid><pubDate>Sat, 13 Sep 2025 18:33:45 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src="."&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[tomcat vs netty]]></title><description><![CDATA[
+리액티브시스템에도 두개 섞어서 많이쓴다캄]]></description><link>300-백엔드개발/webflux-vs-mvc-관련-의문점.html</link><guid isPermaLink="false">300-백엔드개발/webflux vs mvc 관련 의문점.md</guid><dc:creator><![CDATA[Jeon MinJi]]></dc:creator><pubDate>Sun, 21 Sep 2025 16:34:29 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src="."&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[그 비지니스 로직분리하기위해서 콜백전달햇던거]]></title><description><![CDATA[나중에함정리 ㄱ]]></description><link>300-백엔드개발/그-비지니스-로직분리하기위해서-콜백전달햇던거.html</link><guid isPermaLink="false">300-백엔드개발/그 비지니스 로직분리하기위해서 콜백전달햇던거.md</guid><pubDate>Sun, 21 Sep 2025 16:33:20 GMT</pubDate></item><item><title><![CDATA[Error-websocket메세지 보내기 전 종료]]></title><link>300-백엔드개발/error-websocket메세지-보내기-전-종료.html</link><guid isPermaLink="false">300-백엔드개발/Error-websocket메세지 보내기 전 종료.md</guid><pubDate>Sun, 21 Sep 2025 16:32:07 GMT</pubDate></item><item><title><![CDATA[헥사고날 아키텍처]]></title><link>400-인프라-&amp;-아키텍처/헥사고날-아키텍처.html</link><guid isPermaLink="false">400-인프라 &amp; 아키텍처/헥사고날 아키텍처.md</guid><pubDate>Sun, 21 Sep 2025 16:30:55 GMT</pubDate></item><item><title><![CDATA[kafka 메세지 전송]]></title><description><![CDATA[어케 메ㅔ싲 전송하ㅡㄴㄴ지메세ㅣㅈ 전송 옵션이 어케되는지<a rel="noopener nofollow" class="external-link is-unresolved" href="https://curiousjinan.tistory.com/entry/kafka-message-delivery-guarantees" target="_self">https://curiousjinan.tistory.com/entry/kafka-message-delivery-guarantees</a><br>
+<a rel="noopener nofollow" class="external-link is-unresolved" href="https://oliveyoung.tech/2024-10-16/oliveyoung-scm-oms-kafka/?keyword=kafka" target="_self">https://oliveyoung.tech/2024-10-16/oliveyoung-scm-oms-kafka/?keyword=kafka</a>]]></description><link>400-인프라-&amp;-아키텍처/kafka-메세지-전송.html</link><guid isPermaLink="false">400-인프라 &amp; 아키텍처/kafka 메세지 전송.md</guid><pubDate>Sun, 21 Sep 2025 16:29:31 GMT</pubDate></item><item><title><![CDATA[Error - transaction error]]></title><link>300-백엔드개발/error-transaction-error.html</link><guid isPermaLink="false">300-백엔드개발/Error - transaction error.md</guid><pubDate>Sun, 21 Sep 2025 16:27:39 GMT</pubDate></item><item><title><![CDATA[다양한 oauth 인증 방식]]></title><link>300-백엔드개발/다양한-oauth-인증-방식.html</link><guid isPermaLink="false">300-백엔드개발/다양한 oauth 인증 방식.md</guid><pubDate>Sun, 21 Sep 2025 16:24:17 GMT</pubDate></item><item><title><![CDATA[Error - cookie 역직렬화 문제]]></title><link>300-백엔드개발/error-cookie-역직렬화-문제.html</link><guid isPermaLink="false">300-백엔드개발/Error - cookie 역직렬화 문제.md</guid><pubDate>Sun, 21 Sep 2025 16:21:05 GMT</pubDate></item><item><title><![CDATA[카프카 이벤트 테스트를 어떻게 할까]]></title><link>400-인프라-&amp;-아키텍처/카프카-이벤트-테스트를-어떻게-할까.html</link><guid isPermaLink="false">400-인프라 &amp; 아키텍처/카프카 이벤트 테스트를 어떻게 할까.md</guid><pubDate>Sun, 21 Sep 2025 16:19:47 GMT</pubDate></item><item><title><![CDATA[도커 명령어]]></title><description><![CDATA[
+chmod 600 /Users/jeonminji/Downloads/a071189-key.pem 권한많으면 에러날 수 잇음 ssh -i /Users/jeonminji/Downloads/a071189-key.pem 사용자명@서버주소
+Host myserver HostName 서버주소 User 사용자명 IdentityFile /Users/jeonminji/Downloads/a071189-key.pem
+ssh myserver ]]></description><link>400-인프라-&amp;-아키텍처/도커-명령어.html</link><guid isPermaLink="false">400-인프라 &amp; 아키텍처/도커 명령어.md</guid><pubDate>Sun, 21 Sep 2025 16:19:38 GMT</pubDate></item><item><title><![CDATA[📚 801 다 맡게팅-1758471239595]]></title><description><![CDATA[<img src="99-settings/1-topics/assets/📚-801-다-맡게팅-1758471239595.png" target="_self">]]></description><link>99-settings/1-topics/assets/📚-801-다-맡게팅-1758471239595.html</link><guid isPermaLink="false">99-Settings/1-Topics/assets/📚 801 다 맡게팅-1758471239595.png</guid><pubDate>Sun, 21 Sep 2025 16:13:59 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src="."&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[📚 801 다 맡게팅-1758471209903]]></title><description><![CDATA[<img src="99-settings/1-topics/assets/📚-801-다-맡게팅-1758471209903.png" target="_self">]]></description><link>99-settings/1-topics/assets/📚-801-다-맡게팅-1758471209903.html</link><guid isPermaLink="false">99-Settings/1-Topics/assets/📚 801 다 맡게팅-1758471209903.png</guid><pubDate>Sun, 21 Sep 2025 16:13:29 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src="."&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[📚 705 보안]]></title><description><![CDATA[보안 관련 학습 내용을 담는 토픽입니다.
+<a data-href="📖 700 컴퓨터 과학" href="99-settings/1-topics/📖-700-컴퓨터-과학.html" class="internal-link" target="_self" rel="noopener nofollow">📖 700 컴퓨터 과학</a>
+]]></description><link>99-settings/1-topics/📚-705-보안.html</link><guid isPermaLink="false">99-Settings/1-Topics/📚 705 보안.md</guid><pubDate>Sun, 21 Sep 2025 15:59:16 GMT</pubDate></item><item><title><![CDATA[JS-제너레이터]]></title><description><![CDATA[<a class="internal-link" data-href="제너레이터(javascript) f5deabc515314f49add882764d4f7621/사용예 74fe883da3124b22af032137691e6a07.md" href=".html" target="_self" rel="noopener nofollow">사용예</a>일반적인 함수는 하나의 값을 반환한다. 제너레이터는 여러개의 값을 하나씩 반환 가능하다.<br><img alt="스크린샷 2023-02-27 오후 10.14.26.png" src="200-웹개발/assets/스크린샷_2023-02-27_오후_10.14.26.html" target="_self">제너레이터 안에 제너레이터function* generateSequence(start, end) { for (let i = start; i &lt;= end; i++) yield i;
+} function* generatePasswordCodes() { // 0..9 yield* generateSequence(48, 57); // A..Z yield* generateSequence(65, 90); // a..z yield* generateSequence(97, 122);
+} let generator = generatePasswordCodes();
+console.log(generator.next());
+console.log(generator.next()); let num = 0;
+let str = "";
+for (let code of generatePasswordCodes()) { str += code + "|"; num++;
+}
+console.log(str);
+console.log([...generatePasswordCodes()]);
+console.log("----------" + num + "회 호출---------");
+<br><img alt="스크린샷 2023-02-28 오후 4.13.41.png" src="200-웹개발/assets/스크린샷_2023-02-28_오후_4.13.41.html" target="_self"><br><img alt="스크린샷 2023-02-28 오후 4.59.44.png" src="200-웹개발/assets/스크린샷_2023-02-28_오후_4.59.44.html" target="_self">function* gen() { let ask1 = yield "2 + 2 = ?"; alert(ask1); // 4 let ask2 = yield "3 * 3 = ?" alert(ask2); // 9
+} let generator = gen(); alert( generator.next().value ); // "2 + 2 = ?" alert( generator.next(4).value ); // "3 * 3 = ?" alert( generator.next(9).done ); // true
+제너레이터 함수는 여러 가지 장점이 있습니다.
+비동기 처리: 제너레이터 함수는 비동기 처리와 함께 사용되면 유용하게 활용될 수 있습니다. 이를 통해 비동기적으로 실행되는 코드를 동기적으로 작성할 수 있습니다.
+실행 중단 및 재개: 제너레이터 함수는 실행 중간에 멈출 수 있으며, 이후 다시 재개할 수 있습니다. 이를 통해 함수의 실행 흐름을 더욱 세밀하게 제어할 수 있습니다.
+무한 시퀀스 생성: 제너레이터 함수는 무한한 시퀀스를 생성할 수 있습니다. 이를 통해 메모리 사용을 최적화할 수 있습니다.
+이터러블 객체 생성: 제너레이터 함수는 이터러블 객체를 생성할 수 있습니다. 이를 통해 for...of 문과 같은 반복문에서 사용할 수 있습니다.
+위와 같은 장점을 갖고 있어서, 제너레이터 함수는 ES6 이후 자바스크립트에서 많이 사용되고 있습니다.제너레이터 함수의 활용 예시로는, 이터러블 객체를 생성하는 것이 있습니다. 이터러블 객체를 생성하면 for...of 문을 사용해 반복문을 실행할 수 있습니다. 아래는 1부터 시작해서 2씩 증가하는 무한한 시퀀스를 생성하는 예제입니다.function* generateSequence() { let num = 1; while (true) { yield num; num += 2; }
+} const sequence = generateSequence();
+console.log(sequence.next().value); // 1
+console.log(sequence.next().value); // 3
+console.log(sequence.next().value); // 5 위 예제에서 generateSequence 함수는 제너레이터 함수입니다. 이 함수는 무한한 시퀀스를 생성하며, while 문과 함께 사용되어 끝없는 시퀀스를 생성합니다. sequence 변수에는 generateSequence 함수를 호출한 결과가 할당되며, 이 변수를 사용해 시퀀스를 생성할 수 있습니다. sequence.next()는 시퀀스에서 다음 값을 가져옵니다. 이를 통해 1, 3, 5와 같은 값을 생성할 수 있습니다.또한, 제너레이터 함수는 비동기 처리와 함께 사용될 때 유용하게 활용될 수 있습니다. 예를 들어, 서버로부터 데이터를 가져와서 화면에 출력하는 작업을 할 때, 제너레이터 함수를 사용하면 비동기적으로 데이터를 가져와서 화면에 출력할 수 있습니다.아래는 제너레이터 함수를 사용한 비동기 데이터 가져오기 예제입니다.function* fetchData() { const data = yield fetch('&lt;https://jsonplaceholder.typicode.com/todos/1&gt;'); console.log(data);
+} const gen = fetchData();
+const result = gen.next(); result.value .then(response =&gt; response.json()) .then(data =&gt; gen.next(data)); 위 예제에서 fetchData 함수는 제너레이터 함수입니다. 이 함수는 fetch 함수를 호출하고, 데이터를 가져오는 작업을 수행합니다. 그리고 데이터를 가져오면, console.log를 사용해 데이터를 출력합니다. gen 변수에는 fetchData 함수를 호출한 결과가 할당되며, 이 변수를 사용해 데이터를 가져올 수 있습니다. result 변수에는 gen.next()를 호출한 결과가 할당되며, 이를 통해 fetchData 함수의 첫 번째 yield 문에서 멈춥니다. 그리고 result.value.then을 사용해 데이터를 가져와서 gen.next(data)를 호출하면 fetchData 함수가 다시 실행됩니다.이처럼 제너레이터 함수를 사용하면 비동기 처리를 더욱 쉽게 구현할 수 있습니다.제너레이터 함수는 실행 중간에 멈출 수 있고, 이후 다시 재개할 수 있습니다. 이를 통해 함수의 실행 흐름을 더욱 세밀하게 제어할 수 있습니다. 아래는 제너레이터 함수를 사용한 실행 중단 및 재개 예제입니다.function* foo() { console.log('start'); yield; console.log('middle'); yield; console.log('end');
+} const f = foo();
+f.next(); // 'start'
+f.next(); // 'middle'
+f.next(); // 'end' 위 예제에서 foo 함수는 제너레이터 함수입니다. 이 함수에는 console.log를 사용해 'start', 'middle', 'end'를 출력하는 코드가 있습니다. f 변수에는 foo 함수를 호출한 결과가 할당되며, f.next()를 호출하면 foo 함수가 실행됩니다. 그리고 yield 문에서 멈춥니다. 이후 f.next()를 다시 호출하면, foo 함수가 이전 위치에서 다시 실행되며, 다음 yield 문에서 멈춥니다. 이를 통해 함수의 실행 흐름을 세밀하게 제어할 수 있습니다.마지막으로, 제너레이터 함수는 무한한 시퀀스를 생성할 수 있습니다. 이를 통해 메모리 사용을 최적화할 수 있습니다. 아래는 제너레이터 함수를 사용한 무한한 시퀀스 생성 예제입니다.function* infiniteSequence() { let num = 0; while (true) { yield num++; }
+} const generator = infiniteSequence(); console.log(generator.next().value); // 0
+console.log(generator.next().value); // 1
+console.log(generator.next().value); // 2 위 예제에서 infiniteSequence 함수는 제너레이터 함수입니다. 이 함수는 무한한 시퀀스를 생성하며, while 문과 함께 사용되어 끝없는 시퀀스를 생성합니다. generator 변수에는 infiniteSequence 함수를 호출한 결과가 할당되며, 이 변수를 사용해 시퀀스를 생성할 수 있습니다. generator.next()는 시퀀스에서 다음 값을 가져옵니다. 이를 통해 0, 1, 2와 같은 값을 생성할 수 있습니다.위와 같이 제너레이터 함수는 ES6 이후 자바스크립트에서 많이 사용되고 있으며, 여러 가지 장점을 갖고 있습니다. 이를 통해 비동기 처리를 더욱 쉽게 구현하고, 실행 흐름을 더욱 세밀하게 제어할 수 있으며, 무한한 시퀀스를 생성할 수 있습니다.]]></description><link>200-웹개발/js-제너레이터.html</link><guid isPermaLink="false">200-웹개발/JS-제너레이터.md</guid><pubDate>Sun, 21 Sep 2025 08:18:54 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src="."&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[prototype]]></title><description><![CDATA[<img src="200-웹개발/assets/prototype.png" target="_self">]]></description><link>200-웹개발/assets/prototype.html</link><guid isPermaLink="false">200-웹개발/assets/prototype.png</guid><pubDate>Sun, 21 Sep 2025 08:17:25 GMT</pubDate><enclosure url="200-웹개발/assets/prototype.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="200-웹개발/assets/prototype.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[property2]]></title><description><![CDATA[<img src="200-웹개발/assets/property2.png" target="_self">]]></description><link>200-웹개발/assets/property2.html</link><guid isPermaLink="false">200-웹개발/assets/property2.png</guid><pubDate>Sun, 21 Sep 2025 08:17:25 GMT</pubDate><enclosure url="200-웹개발/assets/property2.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="200-웹개발/assets/property2.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[property1]]></title><description><![CDATA[<img src="200-웹개발/assets/property1.png" target="_self">]]></description><link>200-웹개발/assets/property1.html</link><guid isPermaLink="false">200-웹개발/assets/property1.png</guid><pubDate>Sun, 21 Sep 2025 08:17:25 GMT</pubDate><enclosure url="200-웹개발/assets/property1.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="200-웹개발/assets/property1.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[datatype4]]></title><description><![CDATA[<img src="200-웹개발/assets/datatype4.png" target="_self">]]></description><link>200-웹개발/assets/datatype4.html</link><guid isPermaLink="false">200-웹개발/assets/datatype4.png</guid><pubDate>Sun, 21 Sep 2025 08:17:25 GMT</pubDate><enclosure url="200-웹개발/assets/datatype4.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="200-웹개발/assets/datatype4.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[datatype3]]></title><description><![CDATA[<img src="200-웹개발/assets/datatype3.png" target="_self">]]></description><link>200-웹개발/assets/datatype3.html</link><guid isPermaLink="false">200-웹개발/assets/datatype3.png</guid><pubDate>Sun, 21 Sep 2025 08:17:25 GMT</pubDate><enclosure url="200-웹개발/assets/datatype3.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="200-웹개발/assets/datatype3.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[datatype2]]></title><description><![CDATA[<img src="200-웹개발/assets/datatype2.png" target="_self">]]></description><link>200-웹개발/assets/datatype2.html</link><guid isPermaLink="false">200-웹개발/assets/datatype2.png</guid><pubDate>Sun, 21 Sep 2025 08:17:25 GMT</pubDate><enclosure url="200-웹개발/assets/datatype2.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="200-웹개발/assets/datatype2.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[datatype1]]></title><description><![CDATA[<img src="200-웹개발/assets/datatype1.png" target="_self">]]></description><link>200-웹개발/assets/datatype1.html</link><guid isPermaLink="false">200-웹개발/assets/datatype1.png</guid><pubDate>Sun, 21 Sep 2025 08:17:25 GMT</pubDate><enclosure url="200-웹개발/assets/datatype1.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="200-웹개발/assets/datatype1.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[이벤트루프의_여러가지큐8]]></title><description><![CDATA[<img src="200-웹개발/assets/이벤트루프의_여러가지큐8.png" target="_self">]]></description><link>200-웹개발/assets/이벤트루프의_여러가지큐8.html</link><guid isPermaLink="false">200-웹개발/assets/이벤트루프의_여러가지큐8.png</guid><pubDate>Sun, 21 Sep 2025 08:17:25 GMT</pubDate><enclosure url="200-웹개발/assets/이벤트루프의_여러가지큐8.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="200-웹개발/assets/이벤트루프의_여러가지큐8.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[이벤트루프의_여러가지큐7]]></title><description><![CDATA[<img src="200-웹개발/assets/이벤트루프의_여러가지큐7.png" target="_self">]]></description><link>200-웹개발/assets/이벤트루프의_여러가지큐7.html</link><guid isPermaLink="false">200-웹개발/assets/이벤트루프의_여러가지큐7.png</guid><pubDate>Sun, 21 Sep 2025 08:17:25 GMT</pubDate><enclosure url="200-웹개발/assets/이벤트루프의_여러가지큐7.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="200-웹개발/assets/이벤트루프의_여러가지큐7.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[이벤트루프의_여러가지큐6]]></title><description><![CDATA[<img src="200-웹개발/assets/이벤트루프의_여러가지큐6.png" target="_self">]]></description><link>200-웹개발/assets/이벤트루프의_여러가지큐6.html</link><guid isPermaLink="false">200-웹개발/assets/이벤트루프의_여러가지큐6.png</guid><pubDate>Sun, 21 Sep 2025 08:17:25 GMT</pubDate><enclosure url="200-웹개발/assets/이벤트루프의_여러가지큐6.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="200-웹개발/assets/이벤트루프의_여러가지큐6.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[이벤트루프의_여러가지큐5]]></title><description><![CDATA[<img src="200-웹개발/assets/이벤트루프의_여러가지큐5.png" target="_self">]]></description><link>200-웹개발/assets/이벤트루프의_여러가지큐5.html</link><guid isPermaLink="false">200-웹개발/assets/이벤트루프의_여러가지큐5.png</guid><pubDate>Sun, 21 Sep 2025 08:17:25 GMT</pubDate><enclosure url="200-웹개발/assets/이벤트루프의_여러가지큐5.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="200-웹개발/assets/이벤트루프의_여러가지큐5.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[이벤트루프의_여러가지큐4]]></title><description><![CDATA[<img src="200-웹개발/assets/이벤트루프의_여러가지큐4.png" target="_self">]]></description><link>200-웹개발/assets/이벤트루프의_여러가지큐4.html</link><guid isPermaLink="false">200-웹개발/assets/이벤트루프의_여러가지큐4.png</guid><pubDate>Sun, 21 Sep 2025 08:17:25 GMT</pubDate><enclosure url="200-웹개발/assets/이벤트루프의_여러가지큐4.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="200-웹개발/assets/이벤트루프의_여러가지큐4.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[이벤트루프의_여러가지큐3]]></title><description><![CDATA[<img src="200-웹개발/assets/이벤트루프의_여러가지큐3.png" target="_self">]]></description><link>200-웹개발/assets/이벤트루프의_여러가지큐3.html</link><guid isPermaLink="false">200-웹개발/assets/이벤트루프의_여러가지큐3.png</guid><pubDate>Sun, 21 Sep 2025 08:17:25 GMT</pubDate><enclosure url="200-웹개발/assets/이벤트루프의_여러가지큐3.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="200-웹개발/assets/이벤트루프의_여러가지큐3.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[이벤트루프의_여러가지큐2]]></title><description><![CDATA[<img src="200-웹개발/assets/이벤트루프의_여러가지큐2.png" target="_self">]]></description><link>200-웹개발/assets/이벤트루프의_여러가지큐2.html</link><guid isPermaLink="false">200-웹개발/assets/이벤트루프의_여러가지큐2.png</guid><pubDate>Sun, 21 Sep 2025 08:17:25 GMT</pubDate><enclosure url="200-웹개발/assets/이벤트루프의_여러가지큐2.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="200-웹개발/assets/이벤트루프의_여러가지큐2.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[이벤트루프의_여러가지큐1]]></title><description><![CDATA[<img src="200-웹개발/assets/이벤트루프의_여러가지큐1.png" target="_self">]]></description><link>200-웹개발/assets/이벤트루프의_여러가지큐1.html</link><guid isPermaLink="false">200-웹개발/assets/이벤트루프의_여러가지큐1.png</guid><pubDate>Sun, 21 Sep 2025 08:17:25 GMT</pubDate><enclosure url="200-웹개발/assets/이벤트루프의_여러가지큐1.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="200-웹개발/assets/이벤트루프의_여러가지큐1.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[JS-this]]></title><description><![CDATA[
+자신이 속한 객체 또는 생성할 인스턴트를 가리키는 자기 참조 변수.
+호출될 때 동적으로 값이 결정된다.
+생성자 함수에서는 this 가 추후 생성될 인스턴스에 바인딩됨.function Circle(radius){ this.radius = radius; this.getDiameter = function (){ return 2 * this.radius; }
+} const circle1 = new Circle(10);
+const circle2 = Circle(10)
+console.log(circle1.getDiameter()); //20
+console.log(circle2) //undefined
+console.log(circle2.getDiameter()); //error
+“new” 와 함깨 호출하지 않으면 일반함수로 동작.메서드 내부의 this는 메서드를 호출한 객체에 바인딩된다.const person = { name:'Lee', getName(){ console.log(this); return this.name; }
+} function Person(name){ this.name = name; this.getName = function(){ console.log(this); return this.name; }
+} const person1=new Person("Lee");
+const getName1 = person.getName; person.getName();//{ name: 'Lee', getName: [Function: getName] }
+person1.getName();//Person { name: 'Lee', getName: [Function] }
+getName1();//window
+//return는 undefined window.name이없으니깐..
+일반 함수로 호출된 모든 함수의 내부 this에는 전역 객체가 바인딩된다.function foo(){ console.log(this);//window function bar(){ console.log(this);//window } bar();
+} const obj = { value: 100, foo(){ console.log(this);//obj function bar(){ console.log(this);//window } bar(); }, poo(){ setTimeout(function(){ console.log(this);//window },100) },
+}
+const obj = { value: 100, poo(){ const that = this; setTimeout(function(){ console.log(this);//window console.log(that.value);//100 },100) },
+}
+화살표 함수의 내부 this는 상위 스코프 this를 가리킨다.const obj = { value: 100, poo(){ const that = this; setTimeout(()=&gt;{ console.log(this.value);//100 },100) },
+} apply, call
+기본적으론 함수 호출하는 것.첫번째 인수로 전달한 객체를 this에 바인딩function getThisBinding(){ console.log(arguments); return this;
+} const thisArg = { a : 1 };
+console.log(getThisBinding.apply(thisArg,[1,2,3]));
+//Arguments(3) 1,2,3
+//{a : 1}
+console.log(getThisBinding.call(thisArg,1,2,3));
+//Arguments(3) 1,2,3
+//{a : 1} bind
+함수 호출 X , this 바인딩이 bind의 첫번째 인수로 교채된 함수로 반환.function getThisBinding(){ console.log(arguments); return this;
+} const thisArg = { a : 1 };
+console.log(getThisBinding.bind(thisArg)());
+//{a : 1} var healthObj = { name : "달리기", lastTime : "PM10:12", showHealth : function() { setTimeout(function(){ console.log(this.name + "님, 오늘은 " + this.lastTime + "에 운동을 하셨네요"); }.bind(this), 500); }
+}
+]]></description><link>200-웹개발/js-this.html</link><guid isPermaLink="false">200-웹개발/JS-this.md</guid><pubDate>Sun, 21 Sep 2025 08:17:16 GMT</pubDate></item><item><title><![CDATA[JS-prototype]]></title><description><![CDATA[자바스크립트의 모든 객체는 [[Prototype]]이라는 숨김 프로퍼티를 가지고 있다.그리고 이 참조 대상을 prototype 이라고 부른다.이것은 상속 받아 사용할 수 있고 해당 객체에서 해당 프로퍼티가 없을 시 프로토타입에서 해당 프로퍼티를 찾게된다.let A = { name: "A" };
+let B = { name: "B" };
+B.__proto__ = A; console.log(B.__proto__);//{name: "}
+console.log(A.__proto__);//{}
+<img alt="Untitled" src="200-웹개발/assets/prototype.png" target="_self"> [[Prototype]] : 숨김 프로퍼티, 객체를 참조하거나 null값을 갖는다.prototype: [[Prototype]] 숨김 프로퍼티가 참조하는 대상이다.<br>__proto__ : <a data-href="**Prototype**" href=".html" class="internal-link" target="_self" rel="noopener nofollow">**Prototype**</a>의 getter setter , null이나 객체만 가능, 다른자료형 무시함수 객체에는 prototype이라는 일반프로퍼티도 있지만 이후에 다룰 예정.let A = { name: "A", age: 30, id: "25532" };
+let B = { name: "B", age: 26 };
+let C = { name: "C" }; B.__proto__ = A;
+C.__proto__ = B; console.log(C.name);//C
+console.log(C.age);//26
+console.log(C.id);//25532
+자신에게 해당 프로퍼티가 있다면 그 값을 리턴하고,참조된 prototype을 순서대로 확인하여 가까운 프로퍼티값을 리턴한다.prototype의 값은 변경이 불가능하다.값을 변경할려면 해당 객체에서 변경을 해야한다.let user = { name: "John", surname: "Smith", fullName: "John Smith"
+}; let admin = { __proto__: user, isAdmin: true
+}; console.log(admin.fullName); // John Smith (*) admin.fullName = "Alice Cooper"; console.log(admin.fullName);//Alice Cooper"
+console.log(user.fullName);//John Smith
+이렇게 프로퍼티를 할당할려고하면 prototype에 있는 프로퍼티임에도 불구하고 admin객체에 해당 프로퍼티가 추가된다.let user = { name: "John", surname: "Smith", set fullName(value) { [this.name, this.surname] = value.split(" "); }, get fullName() { return `${this.name} ${this.surname}`; }
+}; let admin = { __proto__: user, isAdmin: true
+}; console.log(admin.fullName); // John Smith (*) // setter 함수가 실행됩니다!
+admin.fullName = "Alice Cooper"; // (**) console.log(admin.fullName); // Alice Cooper, setter에 의해 추가된 admin의 프로퍼티(name, surname)에서 값을 가져옴
+console.log(user.fullName); // John Smith, 본래 user에 있었던 프로퍼티 값
+프로퍼티의 메서드는 실행되나 user의 프로퍼티 값은 그대로고 admin에 값이 추가된다.키-값을 순회하는 대부분이 메서드는 상속프로퍼티를 제외하고 작동한다
+Object.keys
+Object.values
+for … in 반복문: 상속프로퍼티도 순회한다.함수를 이용하여 객체를 만들 수 있다. 이러한 생성자 함수에는 prototype이라는 일반 프로퍼티가있다. prototype프로퍼티에 할당된 객체는 새로운 객체가 생성될 시의 프로퍼티가 된다.let animal = { eats: true
+}; function Rabbit(name) { this.name = name;
+} Rabbit.prototype = animal; let rabbit = new Rabbit("흰 토끼");
+//rabbit의 [[prototype]] : aniaml console.log( rabbit.eats ); // true
+console.log(rabbit.__proto__);// {eats: true}
+모든 함수는 prototype 프로퍼티를 갖는다.아무 것도 지정하지 않았을시 갖는 default prototype은 constructor하나만 있는 객체를 가리키고이 constructor의 값은 이 값의 생성자 함수를 가리킨다.생성자 함수를 모를 때 이를 이용하여 생성자 함수를 찾을 수 있다.function Rabbit() {}
+let rabbit = new Rabbit()
+alert( Rabbit.prototype.constructor === Rabbit ); // true
+alert(rabbit.constructor == Rabbit);//rabbit은 prototype프로퍼티는 없음
+하지만 prototype에 다른 객체를 할당하면 이 default프로퍼티는 없어지게 된다let animal = { eats: true
+}; function Rabbit(name) { this.name = name;
+} Rabbit.prototype=animal;
+let rabbit = new Rabbit()
+console.log(Rabbit.prototype.constructor === Rabbit) //false
+console.log(rabbit.constructor == Rabbit) //Object(){}
+그대로 constructor 를 유지할려면 prototype 객체에 프로퍼티를 추가하면된다..]]></description><link>200-웹개발/js-prototype.html</link><guid isPermaLink="false">200-웹개발/JS-prototype.md</guid><pubDate>Sun, 21 Sep 2025 08:17:16 GMT</pubDate><enclosure url="200-웹개발/assets/prototype.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="200-웹개발/assets/prototype.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[JS-함수 심화학습]]></title><description><![CDATA[
+자기 자신을 호출하는 함수
+재귀 호출의 최대 개수(재귀 깊이)를 제한하고 있다. function pow(x, n) { let result = 1; for (let i = 0; i &lt; n; i++) { result *= x; } return result;
+} function pow(x, n) { return (n == 1) ? x : (x * pow(x, n - 1));
+}
+반복문으로도 표현 가능하지만 , 재귀를 이용하면 훨신 더 간결하고 유지보수가 쉬운 코드를 만들 수 있을 때가 있다.하지만 반복문은 메모리를 더 적게 사용하고 재귀는 메모리를 더 많이 잡아먹는다실행 컨텍스트 : 해당 함수의 실행 절차, 변수의 현재값, this의 값등 의 함수 실행에대한 세부 정보를 담고 있는 내부 데이터 구조1 함수 호출 = 1 실행 컨텍스트 생성
+스택 최상단에 현재 컨텍스트가 '기록’됩니다.
+서브 호출을 위한 새로운 컨텍스트가 만들어집니다.
+서브 호출이 완료되면. 기존 컨텍스트를 스택에서 꺼내(pop) 실행을 이어나갑니다.
+이후 간단히 표기할 실행 컨텍스트{ 인수 , 함수의 실행 위치}(1) function pow(x, n) { if (n == 1) {
+(2) return x; } else {
+(3) return x * pow(x, n - 1); }
+} alert( pow(2, 3) ); pow(2,3)이 호출 된 순간
+실행 컨텍스트 | { x : 2 , n : 3 , ( 1 )} |
+(3) 위치에서 pow(2,2)가 호출 된 순간
+실행 컨텍스트 | { x : 2 , n : 2 , ( 1 )} |
+| { x : 2 , n : 3 , ( 3 )} |
+(3) 위치에서 pow(2,1)가 호출 된 순간
+실행 컨텍스트 | { x : 2 , n : 1 , ( 1 )} |
+| { x : 2 , n : 2 , ( 3 )} |
+| { x : 2 , n : 3 , ( 3 )} |
+n==1 을 만족 시킴으로 x가 리턴되면서 함수 종료 됨
+실행 컨텍스트 | { x : 2 , n : 1 , ( 1 )} | ⇒ 2 반환 → pop
+| { x : 2 , n : 2 , ( 3 )} |
+| { x : 2 , n : 3 , ( 3 )} |
+———————————————
+| { x : 2 , n : 2 , ( 3 )} | 실행 → pow(2,1)결과 알고잇음으로 4 반환 → pop
+| { x : 2 , n : 3 , ( 3 )} |
+———————————————
+| { x : 2 , n : 3 , ( 3 )} | 실행 → pow(2,2)결과 알고잇음으로 8 반환 → pop
+깊이 탐색하는 알고리즘을 구현할 때 사용가능 dfs 같은..queue 나 deque의 자료구조를 이용할 때 shift() 나 unshift() 를 이용하면 시간 복잡도가 크다. O(n)형태let list = { value : 값, next : 다음 객체 참조
+}
+“함수 심화학습 78247e2a19094e7fb4a96710da56ace6/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2023-01-16_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_5.20.01.png” could not be found.
+let list1 = { value : 1, next : null,
+} let list2 = { value : 2, next : list3,
+} let list3 = { value : 3, next : null,
+} /**
+원래 형태
+list1 list2 -&gt; list3
+**/ // 추가
+list3.next = {value : 4}
+list1.next = list2
+/**
+추가 후 형태
+list1 -&gt; list2 -&gt; list3 -&gt; {value:4}
+**/
+남아 있는 매개변수들을 배열에 넣어서 반환function test(a,b,...c){ console.log(a);// 1 console.log(b);// 2 console.log(c);// [3,4,5,6,7]
+} test(1,2,3,4,5,6,7);
+남아있는 매개변수를 담기에 중간에 있으면 안됨.a , …b , c 불가능.나머지 매개변수 전에 쓰였던 것이터러블 객체지만 배열은 아님화살표 함수는 arguments가 없음 , 호출 시 외부 일반 함수의 arguments 반환function showName() { alert( arguments.length ); alert( arguments[0] ); alert( arguments[1] );
+} // 2, Bora, Lee가 출력됨
+showName("Bora", "Lee"); // 1, Bora, undefined가 출력됨(두 번째 인수는 없음)
+showName("Bora");
+배열을 통체로 매개변수로 넘겨 주는것
+배열을 인수로 전달 할 때
+let arr1 = [1, -2];
+let arr2 = [8, 3]; Math.max(1, ...arr1, 2, ...arr2, 25) //25
+//이 두개는 같다.
+Math.max(1, 1, -2, 2, 8, 3, 25) //25 배열을 합칠 때
+let arr1 = [1, -2];
+let arr2 = [8, 3]; let arr3 = [...arr1, ...arr2] //[1,-2,8,3] 배열을 복사 할 때
+Object.assign({}, obj) 도 이용할 수 있긴 하지만 이 편이 더 간단하다.
+let arr1 = [1, -2];
+let copyarr1 = [...arr1]; console.log(arr1 ===copyarr1); //false
+여기서의 변수는 let과 const만 다룬다.코드블록 { } 안에서 선언한 변수는 블록 안에서만 사용 가능하다.{ // 지역 변수를 선언하고 몇 가지 조작을 했지만 그 결과를 밖에서 볼 수 없습니다. let message = "안녕하세요."; // 블록 내에서만 변숫값을 얻을 수 있습니다. alert(message); // 안녕하세요.
+} alert(message); // ReferenceError: message is not defined
+스크립트 전체 , 코드블록 , 호출된 함수는 렉시컬환경이라는 내부수김 연관 객체를 갖는다.(실제로 접근은 불가.)생성된 기준으로 렉시컬환경을 갖는다.
+환경 레코드
+모든 지역 변수와 함수를 프로퍼티로 저장하고 있는 객체
+this값과 같은 정보도 여기에서 저장
+외부 렉시컬 환경에 대한 참조
+외부 코드와 연관됨
+변수는 환경 레코드의 프로퍼티. 변수 변경시 환경레코드의 프로퍼티가 변경됨“함수 심화학습 78247e2a19094e7fb4a96710da56ace6/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2023-01-16_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_6.34.12.png” could not be found.(1) 스크립트 시작시 변수가 렉시컬 환경에 올라간다. 변수상태는 uninitialized가 된다. 변수상태를 인지는 하고 있으나 변수를 참조할 수 없다.(2) 변수가 선언됨. 값을 할당하지 않았으면 undefined의 값을 가지게 된다.(3,4) 값이 할당바로 초기화 됨. 렉시컬환경이 만들어 지는 즉시 사용가능.함수를 호출해 실행하면 새로운 렉시컬환경이 자동으로 만들어진다.이 새로운 렉시컬환경에서는 매개 변수와 해당 함수의 지역 변수들을 저장하고 외부 렉시컬을 참조한다.변수에 접근 시 내부 렉시컬 → 참조하는 외부 렉시컬 순으로 확장하며 검색.“함수 심화학습 78247e2a19094e7fb4a96710da56ace6/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2023-01-16_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_6.52.29.png” could not be found.반환된 내부함수가 자신이 선언됐을 때의 환경(Lexical environment)인 스코프를 기억하여 자신이 선언됐을 때의 환경(스코프) 밖에서 호출되어도 그 환경(스코프)에 접근할 수 있는 함수function makeCounter() { let count = 0; return function() { return count++; };
+} let counter = makeCounter(); console.log(counter());//0
+console.log(counter());//1
+console.log(counter());//2
+“함수 심화학습 78247e2a19094e7fb4a96710da56ace6/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2023-01-19_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_10.05.15.png” could not be found.makeCounter를 호출할때마다 새로운 렉시컬이 생성됨.makeCounte는 실행되고 반환되었지만 익명함수는 생성만되고 실행되지 않음.즉, 익명함수의 렉시컬환경은 기억되고 있음.이 익명함수는 count라는 makeCounter이라는 내부변수를 참조하고 있는데 때문에 count의 값은 계속 기억되고 있음.
+정보 은닉
+count변수는 외부에서 접근이 불가능하다. 때문에 의도적인 변경을 피할수 있어 안정적이다.
+메모리 많이 차지
+해당 환경의 변수를 사용하고 있어서 지워지않는 거기 때문에 메모리를 많이 잡아 먹는다.
+전역 객체를 이용하여 어디서나 사용 가능한 변수나 함수를 만들 수 있음브라우저 환경 - windownode.js - global현재는 globalThis로 표준화var은 전역 객체의 프로퍼티가 되지만 let은 그렇지 않다.window.alert("hello") var gVar = 5;
+alert(window.gVar); //5 let gLet = 5;
+alert(window.gLet); // undefine
+모든 곳에서 사용가능한 변수 만들기// 모든 스크립트에서 현재 사용자(current user)에 접근할 수 있게 이를 전역 객체에 추가함
+window.currentUser = { name: "John"
+}; // 아래와 같은 방법으로 모든 스크립트에서 currentUser에 접근할 수 있음
+alert(currentUser.name); // John // 지역 변수 'currentUser'가 있다면
+// 지역 변수와 충돌 없이 전역 객체 window에서 이를 명시적으로 가져올 수 있음
+alert(window.currentUser.name); // John
+전역객체를 이용하여 해당 기능 지원하는지 확인if (!window.Promise) { alert("구식 브라우저를 사용 중이시군요!");
+} if (!window.Promise) { window.Promise = ... // 모던 자바스크립트에서 지원하는 기능을 직접 구현함
+} javascript에서의 함수는 객체이다.
+따라서 함수에 프로퍼티를 추가,제거,참조할 수 있다.
+함수의 이름을 가져올 수 있다. 메서드에서도 이를 사용이 가능하며 익명함수도 자동으로 이름이 할당된다.let sayHi = function() { alert("Hi");
+}; alert(sayHi.name); // sayHi (익명 함수이지만 이름이 있네요!)
+매개변수의 개수를 반환나머지 매개변수는 이에 포함이 되지않음함수의 타입검사를 위해서도 종종 사용됨자체적으로 프로퍼티를 추가할 수도 있다.function sayHi() { alert("Hi"); // 함수를 몇 번 호출했는지 세봅시다. sayHi.counter++;
+}
+sayHi.counter = 0; // 초깃값 sayHi(); // Hi
+sayHi(); // Hi alert( `호출 횟수: ${sayHi.counter}회` ); // 호출 횟수: 2회
+프로퍼티는 변수가 아니라 여기에 let counter을 선언하고 실행하여도 아무 상관이 없다클로저를 함수 프로퍼티로 대체 가능하다.function makeCounter() { //함수 프로퍼티 function counter() { return counter.count++; }; counter.count = 0; return counter;
+} function makeCounter() {//클로저 let count = 0 return function counter() { return count++; };
+}
+클로저로 생성시 외부에서 count에 접근이 불가능하지만 함수프로퍼티를 사용시 외부에서 값을 수정 가능하다.문자열을 함수로 변환함.let func = new Function ([arg1, arg2, ...argN], functionBody); 일반적인 함수와 다르게 현재 렉시컬환경을 참조하는 것이 아닌 전역 렉시컬을 참조하게 된다.
+//make function with 'new Function'
+function getFunc() { let value = "test"; let func = new Function('alert(value)'); return func;
+}
+getFunc()(); // ReferenceError: value is not defined //general function
+function getFunc() { let value = "test"; let func = function() { alert(value); }; return func;
+} getFunc()(); // getFunc의 렉시컬 환경에 있는 값 "test"가 출력됩니다. 일정 시간이 지난 후에 원하는 함수를 호출할 수 있게 하는 것 setTimeout : 일정 시간이 지난 후에 함수를 실행할 수 있다.
+setInterval : 일정한 간격을 두고 함수를 실행할 수 있다.
+//문법
+let timerId = setTimeout(func, [delay], [arg1], [arg2], ...);//스케줄링
+clearTimeout(timerId);//스케줄링 취소 //사용 예제
+function sayHi(who, phrase) { alert( who + ' 님, ' + phrase );
+} setTimeout(sayHi, 1000, "홍길동", "안녕하세요."); //1초 뒤, '홍길동 님, 안녕하세요.'
+일정한 간격을 두고 함수를 실행할 수 있다. 이후에 나올 setInterval과 비슷한 역할을 한다. delay를 변수로 두어 함수를 실행할 때마다 일정하게 간격을 조정할 수 있다.let timerId = setTimeout(function tick() { alert('째깍'); timerId = setTimeout(tick, 2000); // (*)
+}, 2000);
+setInterval은 지연간격에 함수의 실행시간을 포함시킨다.“함수 심화학습 78247e2a19094e7fb4a96710da56ace6/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2023-01-20_%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB_4.09.27.png” could not be found.setInterval“함수 심화학습 78247e2a19094e7fb4a96710da56ace6/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2023-01-20_%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB_4.09.38.png” could not be found.중첩 setTimeout반면 , setTimeout은 함수가 끝나고 지연시간을 잰다.function slow(x) { alert(`slow(${x})을/를 호출함`); return x;
+} function cachingDecorator(func) {//클로저 let cache = new Map(); return function(x) {// func를 캐싱 로직으로 감쌈.(wrapper) if (cache.has(x)) { // cache에 해당 키가 있으면 return cache.get(x); // 대응하는 값을 cache에서 읽어옵니다. } let result = func(x); // 그렇지 않은 경우엔 func를 호출하고, cache.set(x, result); // 그 결과를 캐싱(저장)합니다. return result; };
+} slow = cachingDecorator(slow);
+decorator : 위의 cachingDecorator같이 인수로 받은 함수의 행동을 변경시켜주는 함수decorator를 이용하면 장점
+cachingDecorator를 재사용 할 수 있습니다. 원하는 함수 어디에든&nbsp;cachingDecorator를 적용할 수 있습니다.
+캐싱 로직이 분리되어&nbsp;slow&nbsp;자체의 복잡성이 증가하지 않습니다.
+필요하다면 여러 개의 데코레이터를 조합해서 사용할 수도 있습니다(추가 데코레이터는&nbsp;cachingDecorator&nbsp;뒤를 따릅니다).
+this를 명시적으로 고정해 함수를 호출 가능func.call(context, arg1, arg2, ...)
+// worker.slow에 캐싱 기능을 추가해봅시다.
+(3)let worker = { someMethod() { return 1; }, slow(x) { // CPU 집약적인 작업이라 가정 alert(`slow(${x})을/를 호출함`); return x * this.someMethod(); // (*) }
+}; // 이전과 동일한 코드
+function cachingDecorator(func) { let cache = new Map(); return function(x) { if (cache.has(x)) { return cache.get(x); } console.log(this);//{someMethod:~,slow:~} let result = func(x); cache.set(x, result); return result; };
+} (1) worker.slow = cachingDecorator(worker.slow); // 캐싱 데코레이터 적용 (2)alert( worker.slow(2) ); // 에러 발생!, Error: Cannot read property 'someMeth this 는 함수가 호출 될 때 결정된다.
+함수에서의 this 일반적으론 전역 객체가 바인딩된다.
+메소드일 경우 해당 객체가 바인딩된다.
+메소드의 내부함수는 전역객체가 바인딩된다. 따라서 ,(1) 실행후의 worker,let worker = { someMethod() { return 1; }, slow: function(x) { //cache변수는 메모리에 저장되어 있었기 때문에 사용가능 (클로저) if (cache.has(x)) { return cache.get(x); } (3)console.log(this);//{someMethod:~,slow:~} let result = function(x){ alert(`slow(${x})을/를 호출함`); (4)return x * this.someMethod(); }; cache.set(x, result); return result; };
+};
+(2) 실행 후,(3)에서 worker에 할당된 객체를 가르킴(4)에서는 메소드 내부함수 이므로 전역객체가 바인딩됨.전역객체에 someMethod따위는 없음 → 에러해결let worker = { someMethod() { return 1; }, slow(x) { alert(`slow(${x})을/를 호출함`); return x * this.someMethod(); }
+}; function cachingDecorator(func) { let cache = new Map(); return function(x) { if (cache.has(x)) { return cache.get(x); } let result = func.call(this, x); //this를 worker로 고정 cache.set(x, result); return result; };
+} worker.slow = cachingDecorator(worker.slow); // 캐싱 데코레이터 적용
+argument를 이용한 코드let worker = { slow(min, max) { alert(`slow(${min},${max})을/를 호출함`); return min + max; }
+}; function cachingDecorator(func, hash) { let cache = new Map(); return function() { let key = hash(arguments); // (*) if (cache.has(key)) { return cache.get(key); } let result = func.call(this, ...arguments); cache.set(key, result); return result; };
+} function hash(args) { return args[0] + ',' + ar함
+뒤에 인수를 각각 넣어야하기 때문에 …을 이용기능은 func.call이랑 같은데 인자를 각각 넣는대신 유사 배열을 넣어주면됨func.apply(context, args)
+위의 argument를 이용한 코드에서 let result = func.call(this, ...arguments); 대신let result = func.apply(this, arguments);를 넣으면됨.
+하객체 메서드안에 funtion이 호출될때 this가 사라지는 문제 해결방법!let user = { firstName: "John", sayHi() { alert(`Hello, ${this.firstName}!`); }
+}; 1)setTimeout(user.sayHi, 1000); // Hello, undefined! 2)setTimeout(function() { user.sayHi(); // Hello, John!
+}, 1000);
+1)번은 user의 문맥을 읽고 sayhi 함수만 전달되게 된다2)번은 wrapper로 감싸 user.sayHi()를 호출함으로써 user의 문맥을 그대로 가지고 간다.취약성 : 실행되전 1초안에 user가 바뀌면 변경된 객체의 메서드를 호출this를 특정한객체로 고정하게 해주는 함수이후 인수도 고정해서 바인딩할수도 있음let bound = func.bind(context, [arg1], [arg2], ...); call,apply와의 차이점 : bind는 함수를 실행시키지 않음.
+let user = { firstName: "John"
+}; function func() { alert(this.firstName);
+} let funcUser = func.bind(user);
+funcUser(); // John
+bind호출 시점에서의 user가 this로 고정됨. 위의경우처럼 시간 딜레이가 있을때 사이에 변경되도 안전함
+화살표함수에는 this가 없어서 외부에서 this를 가져옴
+arguments 지원 X
+new와 함께 호출 불가능
+super도 없음
+예시 출처: <a rel="noopener nofollow" class="external-link is-unresolved" href="https://stackoverflow.com/questions/31866390/how-do-i-get-the-right-this-in-an-array-map" target="_self">https://stackoverflow.com/questions/31866390/how-do-i-get-the-right-this-in-an-array-map</a>a = { foo: 'bar', things: [1, 2, 3], showFooForEach: function() { this.things.map(function(thing) { console.log(this.foo, thing); }); }
+} a.showFooForEach();
+여기서 this.foo에서 this는 global가 되어 에러가 일어난다. (메서드 내의 함수→ 전역)방법 1. 화살표함수a = { foo: 'bar', things: [1, 2, 3], showFooForEach: function() { this.things.map((thing) =&gt; { console.log(this.foo, thing); }); }
+} a.showFooForEach();
+화살표함수는this가 없기때문에 상위에서 this 를 가져오게 되어서 a를 가르킨다.방법 2. binda = { foo: 'bar', things: [1, 2, 3], showFooForEach: function() { this.things.map(function(thing) { console.log(this.foo, thing); }.bind(this)); }
+} a.showFooForEach();
+방법 3. 변수로 this저장a = { foo: 'bar', things: [1, 2, 3], showFooForEach: function() { var self = this; this.things.map(function(thing) { console.log(self.foo, thing); })); }
+} a.showFooForEach();
+방법 4. 일부함수에는 인자로 this를 넘겨줄 수 있다.(forEach, map)arr.map(callback(currentValue[, index[, array]])[, thisArg])
+arr.map(callback(currentValue[, index[, array]])[, thisArg])
+a = { foo: 'bar', things: [1, 2, 3], showFooForEach: function() { this.things.map(function(thing) { console.log(this.foo, thing); }, this); }
+} a.showFooForEach();
+]]></description><link>200-웹개발/js-함수-심화학습.html</link><guid isPermaLink="false">200-웹개발/JS-함수 심화학습.md</guid><pubDate>Sun, 21 Sep 2025 08:17:16 GMT</pubDate></item><item><title><![CDATA[JS-프로퍼티 어트리뷰트]]></title><description><![CDATA[내부 슬롯과 내부메서드내부구현알고리즘을 설명하기위해 사용하는 의사 프로퍼티와 의사 메서드다.설명에서 <a data-href="…" href=".html" class="internal-link" target="_self" rel="noopener nofollow">…</a> &lt;&lt;내부슬롯과 내부메서드 ex)<a data-href="prototype" href=".html" class="internal-link" target="_self" rel="noopener nofollow">prototype</a>프로퍼티에 대해서 js에서 관리하는 내부슬롯들프로퍼티를 생성할때 자동정의한다.key와 value로 구성
+<br><a data-href="value" href=".html" class="internal-link" target="_self" rel="noopener nofollow">value</a>
+<br><a data-href="writable" href=".html" class="internal-link" target="_self" rel="noopener nofollow">writable</a>–&nbsp;true이면 값을 수정할 수 있습니다. 그렇지 않다면 읽기만 가능합니다.
+<br><a data-href="enumerable" href=".html" class="internal-link" target="_self" rel="noopener nofollow">enumerable</a>–&nbsp;true이면 반복문을 사용해 나열할 수 있습니다. 그렇지 않다면 반복문을 사용해 나열할 수 없습니다.(for-in,Object.keys)
+<br><a data-href="configurable" href=".html" class="internal-link" target="_self" rel="noopener nofollow">configurable</a>–&nbsp;true이면 프로퍼티 삭제나 플래그 수정이 가능합니다. 그렇지 않다면 프로퍼티 삭제와 플래그 수정이 불가능합니다 configurable&nbsp;플래그를 수정할 수 없음
+enumerable&nbsp;플래그를 수정할 수 없음.
+writable: false의 값을&nbsp;true로 바꿀 수 없음(true를&nbsp;false로 변경하는 것은 가능함).
+접근자 프로퍼티&nbsp;get/set을 변경할 수 없음(새롭게 만드는 것은 가능함).
+삭제할라면 에러는 발생하지않고 무시됨. strictmode에서는 에러.. 기본적으로 생성될 때,
+value는 프로퍼티 값으로 초기화
+나머지는 true로 초기화된다.
+자체적으론 값 ㄴㄴ , 데이터프로퍼티 값을 읽거나 저장할때 호출되는 접근자함수로 구성.접근자함수를 getter setter함수라고도 부름.<br><img alt="Untitled" src="200-웹개발/assets/property1.png" target="_self"><br><img alt="스크린샷 2023-08-23 오후 6.13.42.png" src="200-웹개발/assets/property2.png" target="_self">Object.getOwnPropertyDescriptor(객체참조, 프로퍼티key)를 이용해서 간접 접근가능프로퍼티 디스크립터라는 것을 반환.(어트리뷰트 정보제공)let user = { name: "John"
+}; let descriptor = Object.getOwnPropertyDescriptor(user, 'name'); alert( JSON.stringify(descriptor, null, 2 ) );
+/* property descriptor:
+{ "value": "John", "writable": true, "enumerable": true, "configurable": true
+}
+*/
+key를 넣지않을시 모든 키에대한 프로퍼티 디스크립터를 반환한다.Object.defineProperty(obj, propertyName, descriptor) 해당 프로퍼티가 있을 때
+명시된 attribute만 바꿔준다.
+해당 프로퍼티가 없을 때
+명시되지 않은 attribute는 다 false , undefined(get,set,value)
+let user = {};
+//데이터프로퍼티정의)
+Object.defineProperty(user, "firstName", { value: "John"
+}); let descriptor = Object.getOwnPropertyDescriptor(user, 'firstName');
+/*
+{ "value": "John", "writable": false, "enumerable": false, "configurable": false
+} */ Object.defineProperty(user,'fullname",{ get(){}, set(){}, enumerable:true, configurable:true,
+}
+<br>프로퍼티 여러개 정의 : <a data-tooltip-position="top" aria-label="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperties" rel="noopener nofollow" class="external-link is-unresolved" href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperties" target="_self">Object.defineProperties(obj, descriptors)</a>객체는 변경가능하며 프로퍼티 어트리부트 또한 재정의될 수 도 있다.| 구분 | 메서드
+Object.~ | 프로퍼티 추가 | 프로퍼티
+삭제 | 프로퍼티 값 읽기 | 프로퍼티 값 쓰기 | 프로퍼티 어트리뷰트 재정의 | 확인방법 메서드
+Object.~ |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 확장 금지 | preventExtensions | X | O | O | O | O | isExtensible |
+| 밀봉 | seal | X | X | O | O | X | isSeal |
+| 동결 | freeze | X | X | O | X | X | isFrozen |<br>프로퍼티추가 : 동적추가 (<a data-tooltip-position="top" aria-label="http://user.name" rel="noopener nofollow" class="external-link is-unresolved" href="http://user.name" target="_self">user.name</a> = “어쩌구”)와 Object.defineProperty로 가능함.const person = { name: 'Lee', address: { city: 'Seoul' }
+}
+person을 freeze해도 중첩객체인 { city: 'Seoul' } 는 동결되지않는다.그래서 재귀돌려서 하나씩 freeze를 시켜줘야함.function deepFreeze(obj) { if(obj === null || typeof obj !== 'object') { Object.freeze(obj); Object.keys(obj).forEach(key =&gt; obj[key] &amp;&amp; typeof obj[key] === 'object' &amp;&amp; deepFreeze(obj[key])); } return obj;
+}
+]]></description><link>200-웹개발/js-프로퍼티-어트리뷰트.html</link><guid isPermaLink="false">200-웹개발/JS-프로퍼티 어트리뷰트.md</guid><pubDate>Sun, 21 Sep 2025 08:17:16 GMT</pubDate><enclosure url="200-웹개발/assets/property1.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="200-웹개발/assets/property1.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[JS-테스트코드]]></title><description><![CDATA[저는 대표적인 Jest와 Mocha를 비교해보고 넘어가겠습니다 ㅎㅎ.보통 JavaScript 진영에서는 테스트 코드를 짤 때 유명한 프레임워크로 다음과 같은 것이 입니다.
+Jest (강력한 Mocking 기능으로 TOP 1)
+Mocha (+ Chai)
+Cypress
+등
+여러 선택지가 있습니다. 프론트엔드에서는 dom 검사를 위해서 react-testing-library 등을 함께 쓰던군영.Jest는 기능이 강력한 대신 느립니다. 나중에 테스트가 쌓이면 매번 몇 초 동안 기다려야 하기 때문에 답답할 수 있습니다.대신 zero config를 추구하기 때문에 특별한 설정 없이 바로 시작할 수 있습니다.<img src="https://blog.kakaocdn.net/dn/IGUOh/btrU6Y1Es27/oL9hSEjabGBOyF44ImwN5k/img.png" referrerpolicy="no-referrer" target="_self" class="is-unresolved"><br>Jest 홈페이지 캡처 : <a rel="noopener nofollow" class="external-link is-unresolved" href="https://jestjs.io/" target="_self">https://jestjs.io/</a>환경을 Mocha + Chai로 세팅해봤던 저장소입니다.<br><a data-tooltip-position="top" aria-label="https://github.com/IamGroooooot/ts-goos-tdd/tree/060c6be23d783f3e583c0c5ea3c12e254e7a7287" rel="noopener nofollow" class="external-link is-unresolved" href="https://github.com/IamGroooooot/ts-goos-tdd/tree/060c6be23d783f3e583c0c5ea3c12e254e7a7287" target="_self"><strong></strong>
+Contribute to IamGroooooot/ts-goos-tdd development by creating an account on GitHub.
+github.com</a>GitHub - IamGroooooot/ts-goos-tddMocha는 Test 프레임워크입니다. Node나 브라우저 상으로 동기적이거나 비동적인 코드를 테스팅할 수 있게 해줍니다.테스트코드를 짜보셨다면 익숙할 describe, it, before, after 와 같은 함수 등을 제공해주고 test coverage도 계산해줍니다.보통 여러 Assertion을 추가적으로 쓰기 위해서 Chai라는 라이브러리와 같이 씁니다.Chai로 expect(myVariable).to.equal(111)와 같은 assertion을 작성할 수 있게됩니다.얘가 Jest에 비해 몇 배 더 빠릅니다.<br><a data-tooltip-position="top" aria-label="https://fe-developers.kakaoent.com/2023/230216-custom-jest-matchers/" rel="noopener nofollow" class="external-link is-unresolved" href="https://fe-developers.kakaoent.com/2023/230216-custom-jest-matchers/" target="_self">나만의 Jest Matchers 만들기</a>]]></description><link>200-웹개발/js-테스트코드.html</link><guid isPermaLink="false">200-웹개발/JS-테스트코드.md</guid><pubDate>Sun, 21 Sep 2025 08:17:16 GMT</pubDate><enclosure url="https://blog.kakaocdn.net/dn/IGUOh/btrU6Y1Es27/oL9hSEjabGBOyF44ImwN5k/img.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://blog.kakaocdn.net/dn/IGUOh/btrU6Y1Es27/oL9hSEjabGBOyF44ImwN5k/img.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[JS-클래스]]></title><description><![CDATA[class User { constructor() { this.name = '보라'; } //name = "보라"; 둘다같다
+} let user = new User();
+console.log(user.name); // 보라
+console.log(User.prototype.name); // undefined
+]]></description><link>200-웹개발/js-클래스.html</link><guid isPermaLink="false">200-웹개발/JS-클래스.md</guid><pubDate>Sun, 21 Sep 2025 08:17:16 GMT</pubDate></item><item><title><![CDATA[JS-왜 프로토타입을 사용하나]]></title><description><![CDATA[<a data-tooltip-position="top" aria-label="https://medium.com/@limsungmook/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%EB%8A%94-%EC%99%9C-%ED%94%84%EB%A1%9C%ED%86%A0%ED%83%80%EC%9E%85%EC%9D%84-%EC%84%A0%ED%83%9D%ED%96%88%EC%9D%84%EA%B9%8C-997f985adb42" rel="noopener nofollow" class="external-link is-unresolved" href="https://medium.com/@limsungmook/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%EB%8A%94-%EC%99%9C-%ED%94%84%EB%A1%9C%ED%86%A0%ED%83%80%EC%9E%85%EC%9D%84-%EC%84%A0%ED%83%9D%ED%96%88%EC%9D%84%EA%B9%8C-997f985adb42" target="_self">자바스크립트는 왜 프로토타입을 선택했을까</a><br><a data-tooltip-position="top" aria-label="https://medium.com/@limsungmook/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%EB%8A%94-%EC%99%9C-%ED%94%84%EB%A1%9C%ED%86%A0%ED%83%80%EC%9E%85%EC%9D%84-%EC%84%A0%ED%83%9D%ED%96%88%EC%9D%84%EA%B9%8C-997f985adb42" rel="noopener nofollow" class="external-link is-unresolved" href="https://medium.com/@limsungmook/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%EB%8A%94-%EC%99%9C-%ED%94%84%EB%A1%9C%ED%86%A0%ED%83%80%EC%9E%85%EC%9D%84-%EC%84%A0%ED%83%9D%ED%96%88%EC%9D%84%EA%B9%8C-997f985adb42" target="_self">자바스크립트는 왜 프로토타입을 선택했을까</a>정리Class -플라톤선생님의 말. 눈앞에 실제로, 구체적으로 존재하는 사물이 있다면 반드시 그것의 본질이 존재한다
+개념을 추상화하여서 정의하고 인스턴스화하여 구체적으로 정의한다. 그러나, 현실에는 모추상화하여 분류할수 없는 경우가 존재한다.비트겐슈타인 왈
+공유 속성의 관점에서 정의하기 어려운 개념이 있다,
+세계에 미리 내재되어서 대상과 언어를 완전히 규정하는 어떤 언어란 존재하지 않는다
+표현은 삶의 흐름 속에서만 의미를 갖는다
+→맥락이 중요하다. → this 동적할당,,실행컨택스트…→대상을 분류할 때 모집단에서 가장 유사성 높은 것(가장 다른것들과 비슷한점이 많은것.)을기준으로 자. → prototype.]]></description><link>200-웹개발/js-왜-프로토타입을-사용하나.html</link><guid isPermaLink="false">200-웹개발/JS-왜 프로토타입을 사용하나.md</guid><pubDate>Sun, 21 Sep 2025 08:17:16 GMT</pubDate></item><item><title><![CDATA[JS-데이터 타입]]></title><description><![CDATA[<img alt="Untitled" src="200-웹개발/assets/datatype1.png" target="_self">typeof 를 통해 확인할수있다.모든 원시 값은&nbsp;불변하여 변형할 수 없습니다. 변수는 새로운 값을 다시 할당할 수 있지만, 이미 생성한 원시 값은 객체, 배열, 함수와는 달리 변형할 수 없습니다.배정밀도 : 64 비트 사용<br>부동 소수점 : <a data-tooltip-position="top" aria-label="http://1.xxx" rel="noopener nofollow" class="external-link is-unresolved" href="http://1.xxx" target="_self">1.xxx</a> * 2^n형식으로 나타낸다첫 비트 양수음수 그다음 8bit 몇칸움직엿는지 (n을 이진수로) 다음 1xxx 넣고 나머지 0다른언어에서 생기는 0.1 + 0.2 === 0.3 ≠ true가 고대로 나타난다.<br><img alt="스크린샷 2023-08-09 오후 5.11.51.png" src="200-웹개발/assets/datatype2.png" target="_self">
+NaN , Infinity, -Infinity
+NaN == NaN false isNaN을 통해 확인해야한다.“” ‘’ ``<br><img alt="스크린샷 2023-08-09 오후 5.23.49.png" src="200-웹개발/assets/datatype3.png" target="_self"><br><img alt="스크린샷 2023-08-09 오후 5.24.48.png" src="200-웹개발/assets/datatype4.png" target="_self">LF 쓰는게 좋음CF는 운영체제에 따라 인식 못하는 경우가 잇음줄바꿈문자도 인식함 ${} 통해 변수넣을 수 있음자바스크립트 엔진이 변수를 초기화할때 사용하는 값값을 초기화 하지 않으면 기본적으로 undefined가 할당된다.개발자가 의도적으로 할당하지 않는게 좋음.값이 없다는것을 의도적으로 명시하는 자료형참조하는경우 더이상 참조하지 않겟다!var foo =”hi”foo = null더이상참조하지않으므로 가비지 콜랙션이 수행됨.찾아본것..타입에따라서 래퍼객체가잇음해당변수를 사용할때마다 해당객체에 래핑됨var str = "문자열"; // 문자열 리터럴 생성
+var strObj = new String(str); // 문자열 객체 생성
+str.length; // 리터럴 값은 내부적으로 래퍼 객체를 생성한 후에 length 프로퍼티를 참조함.
+str == strObj; // 동등 연산자는 리터럴 값과 해당 래퍼 객체를 동일하게 봄.
+str === strObj; // 일치 연산자는 리터럴 값과 해당 래퍼 객체를 구별함.
+typeof str; // string 타입
+typeof strObj; // object 타입
+다른 값과 중복되지 않는 유일 무의한값, 외부에 노출안된다.왜필요함?
+값을 저장할 때 확보해야하는 메모리 공간의 크기를 결정하기 위해
+값을 참조할 때 한번에 읽어 들어야할 메모리공간의 크기를 결정하기 위해.
+메모리에서 읽어들인 2진수를 어떻게 해석할지 결정하기 위해.
+선언시 타입을 선언 , 컴파일 시점에서 타입체크함js할당에 의해서 타입이 결정된다. 할당되는 값에 따라 타입이 동적으로 변함..유연성 증가 신뢰성하락필요한 경우에만변수생성 상수 최대한 사용스코프 최대한 좁게만듬네이밍 잘하샘]]></description><link>200-웹개발/js-데이터-타입.html</link><guid isPermaLink="false">200-웹개발/JS-데이터 타입.md</guid><pubDate>Sun, 21 Sep 2025 08:17:16 GMT</pubDate><enclosure url="200-웹개발/assets/datatype1.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="200-웹개발/assets/datatype1.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[JS-객체 프로퍼티 설정]]></title><description><![CDATA[객체의프로퍼티의 속성 = value + flag
+writable&nbsp;–&nbsp;true이면 값을 수정할 수 있습니다. 그렇지 않다면 읽기만 가능합니다.
+enumerable&nbsp;–&nbsp;true이면 반복문을 사용해 나열할 수 있습니다. 그렇지 않다면 반복문을 사용해 나열할 수 없습니다.(for-in,Object.keys)
+configurable&nbsp;–&nbsp;true이면 프로퍼티 삭제나 플래그 수정이 가능합니다. 그렇지 않다면 프로퍼티 삭제와 플래그 수정이 불가능합니다 configurable&nbsp;플래그를 수정할 수 없음
+enumerable&nbsp;플래그를 수정할 수 없음.
+writable: false의 값을&nbsp;true로 바꿀 수 없음(true를&nbsp;false로 변경하는 것은 가능함).
+접근자 프로퍼티&nbsp;get/set을 변경할 수 없음(새롭게 만드는 것은 가능함). 일반적으로 모두 true가 default특정 객체의 프로퍼티에 대한 정보를 모두 얻을 수 있음let descriptor = Object.getOwnPropertyDescriptor(obj, propertyName);
+obj -객체propertyName - key값let user = { name: "John"
+}; let descriptor = Object.getOwnPropertyDescriptor(user, 'name'); alert( JSON.stringify(descriptor, null, 2 ) );
+/* property descriptor:
+{ "value": "John", "writable": true, "enumerable": true, "configurable": true
+}
+*/
+Object.defineProperty(obj, propertyName, descriptor)
+descriptor - 적용하고자하는 프로퍼티의 속성
+해당 프로퍼티가 있을 때
+명시된 속성만 바꿔준다.
+해당 프로퍼티가 없을 때
+명시되지 않은 속성은 다 false
+let user = {}; Object.defineProperty(user, "name", { value: "John"
+}); let descriptor = Object.getOwnPropertyDescriptor(user, 'name'); /*
+{ "value": "John", "writable": false, "enumerable": false, "configurable": false
+} */
+프로퍼티 여러개 정의 : <a data-tooltip-position="top" aria-label="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperties" rel="noopener nofollow" class="external-link is-unresolved" href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperties" target="_self">Object.defineProperties(obj, descriptors)</a>Object.defineProperties(obj, { prop1: descriptor1, prop2: descriptor2 // ...
+});
+그외의 객체 수정 방지 메서드Object.preventExtensions(obj)
+객체에 새로운 프로퍼티를 추가할 수 없게 합니다.Object.seal(obj)
+새로운 프로퍼티 추가나 기존 프로퍼티 삭제를 막아줍니다. 프로퍼티 전체에 configurable: false를 설정하는 것과 동일한 효과입니다.Object.freeze(obj)
+새로운 프로퍼티 추가나 기존 프로퍼티 삭제, 수정을 막아줍니다. 프로퍼티 전체에 configurable: false, writable: false를 설정하는 것과 동일한 효과입니다.
+아래 메서드는 위 세 가지 메서드를 사용해서 설정한 제약사항을 확인할 때 사용할 수 있습니다.Object.isExtensible(obj)
+새로운 프로퍼티를 추가하는 게 불가능한 경우 false를, 그렇지 않은 경우 true를 반환합니다.Object.isSealed(obj)
+프로퍼티 추가, 삭제가 불가능하고 모든 프로퍼티가 configurable: false이면 true를 반환합니다.Object.isFrozen(obj)
+프로퍼티 추가, 삭제, 변경이 불가능하고 모든 프로퍼티가 configurable: false, writable: false이면 true를 반환합니다.객체의 프로퍼티
+데이터 프로퍼티 : 일반적인 프로퍼티
+접근자 프로퍼티 : 데이터 프로퍼티에 접근하기위한 프로퍼티
+접근자 프로퍼티(get/set메서드를 가짐)나 데이터 프로퍼티(value를 가짐) 중 한 종류에만 속할 수 있음
+get&nbsp;– 인수가 없는 함수로, 프로퍼티를 읽을 때 동작함 //getter
+set&nbsp;– 인수가 하나인 함수로, 프로퍼티에 값을 쓸 때 호출됨 //setter
+enumerable&nbsp;– 데이터 프로퍼티와 동일함
+configurable&nbsp;– 데이터 프로퍼티와 동일함 값을 원하는대로 통제할 수 있음
+let user = { get name() { return this._name; }, set name(value) { if (value.length &lt; 4) { alert("입력하신 값이 너무 짧습니다. 네 글자 이상으로 구성된 이름을 입력하세요."); return; } this._name = value; }
+}; user.name = "Pete";
+alert(user.name); // Pete user.name = ""; // 너무 짧은 이름을 할당하려 함
+defineProperty안에 get과 value를 동시에 설정하면 에러가 난다class Foo { constructor () { Object.defineProperty(this, 'bar', { get () { return this._bar; }, set (value) { this._bar = value; } }); } get baz () { *return this._baz; } set baz (value) { this._baz = value; }
+} const myFoo = new Foo();
+console.log('bar', myFoo.hasOwnProperty('bar')); // true
+console.log('baz', myFoo.hasOwnProperty('baz')); // false*
+class Example1 { get hello() { return 'world'; }
+} const obj = new Example1();
+console.log(obj.hello);
+// "world" console.log(Object.getOwnPropertyDescriptor(obj, 'hello'));
+// undefined console.log( Object.getOwnPropertyDescriptor( Object.getPrototypeOf(obj), 'hello' )
+);
+// { configurable: true, enumerable: false, get: function get hello() { return 'world'; }, set: undefined }
+상속시 get과 set은 prototype의 프로퍼티로 설정됨출처<br><a rel="noopener nofollow" class="external-link is-unresolved" href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Functions/get" target="_self">https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Functions/get</a><br>
+<a rel="noopener nofollow" class="external-link is-unresolved" href="https://ko.javascript.info/object-properties" target="_self">https://ko.javascript.info/object-properties</a>]]></description><link>200-웹개발/js-객체-프로퍼티-설정.html</link><guid isPermaLink="false">200-웹개발/JS-객체 프로퍼티 설정.md</guid><pubDate>Sun, 21 Sep 2025 08:17:16 GMT</pubDate></item><item><title><![CDATA[school) DB2-1(설계전 이론)]]></title><description><![CDATA[이론의 중요성
+결과를 예측할 수 있도록 도와준다.
+설계의 중요성
+데이터의 일관성,무결성,정확성에 영향을 준다
+부적절하게 설계를 했을 경우 정보추출이 힘들고, 검색에서 부정확한 정보를 얻는 위험을 감수해야한다.
+좋은 설계 방법론의 장점
+단계적으로 기술의 조직화된 집합을 제공함
+실수와 설계반복을 최소화 할 수 있음
+좋은 설계의 목적
+db는 필수적인 것과 임의적인 정보 추출을 둘다 지원함
+필드,테이블,관계수준에서 무결성이 부과됨
+업뮤규칙을 지원함
+좋은 설계의 이점
+db구조를 쉽게 수정,유지할 수 있음
+정보추출이 쉬움
+최종 사용자 어플리케이션 개발이 쉬워짐
+3단계를 거침
+모델이 되는 사업에 대한 조사
+현재의 평가와 요구 분석을 위한 사용자 및 관리자와의 면담
+사업전반에 대한 요구사항 평가 erd 관계는 다이아몬드, 의미-개체 모델링
+개체-관계 모델링
+<a data-href="DB - 데이터 모델링(DB 설계)" href="school/23-2/db/db-데이터-모델링(db-설계).html" class="internal-link" target="_self" rel="noopener nofollow">DB - 데이터 모델링(DB 설계)</a> 여기에 설명이 더 자세히 되어있음.중복 데이터와 이중 데이터를 줄이고, 데이터 삽입-갱신-삭제에서 발생하는 문제를 줄여줄 수 있다.<br>
+<a data-href="DB - 종속성과 정규화" href="school/23-2/db/db-종속성과-정규화.html" class="internal-link" target="_self" rel="noopener nofollow">DB - 종속성과 정규화</a>
+데이터 : 정적 , 데이터베이스에 ”저장“하는 값, 표면적 의미 없음
+정보 : 동적, 무언가를 위해 의미 있고 유용하도록 처리한 데이터, 정보는 ”추출“하는 것
+null : 누락되었거나 미지의 값 누락 : 일반적으로 사람의 오류
+미지 : 값이 정의디지 않음, 정말 unknown, 적용 되지 않음(적용하지않다/적용할 수 없다) 적용할 수 없는 경우 N/A가 더적합함 단점 : 널을 포함하는 연산은 널로 평가됨 테이블 각 테이블은 항상 하나의 구체적 주제를 나타냄 주제는 개체 or 사건 관계형에서는 릴레이션이라고 불림,각 릴레이션은 튜플(레코드),속성(필드로) 구성
+논리적으로 테이블을 구성함에 따라 데이터의 물리적 독립성을 유지 테이블내의 레코드와 필드의 논리적 순서는 중요치 않음
+각 레코드 들은 식별하는 주키를 포함 종류 데이터 테이블 정보를 제공하는 테이블, 데이터 조작 가능 검증 테이블(lookup table) 데이터 무결성을 구현하는데 사용하는 데이터를 저장
+정적임
+값을 검증하기 위해 간접적으로 테이블 사용
+일반적으론 주제를 나타냄 필드 db에서 가장 작은구조
+속해있는 테이블의 주제의 특성을 나타넴
+좋은 db는 한필드에 하나의 값(원자성)
+잘못 설계된 db의 필드 종류 계산된 필드: 다른필드의 정보들을 계산한 결과를 포함하는 필드
+다중 부분 필드 : 둘이상의 서로 다른 항목들을 값으로 가지는 필드
+다중 값 필드 : 같은 종류의 값을 여러벌 가지는 필드 레코드 테이블 주제의 고유한 인스턴스
+주키에 의해 테이블 전체에 걸처 식별 뷰 가상적 테이블 자체적으로 뎅터 저장 ㄴㄴ, 기반데이터들로 부터 데이터 추출 db내의 정보를 다른 측면에서 볼 수 있음
+여러 테이블로 온 데이터를 작업하는 것을 허용
+사용자가 특정 필드를 보거나 조작하는것을 방지(보안에 굿)
+데이터 무결성에 사용가능(검증뷰) 키 레코드 식별시 사용되는 논리적 구조
+pk : 전체 db에 걸처 특정 레코드를 식별하고 주키 필드는 전체 db를 거처 주어진 테이블을 식별함
+fk : 두 테이블 간의 관계설정, 관계수준의 무결성에 도움이 됨(고아레코드 방지) 인덱스 데이터 처리를 개선하기 위해 rdbms가 제공하는 구조
+논리적 db 구조와 관련이 1도 없음
+데이터 처리를 최정화 하기 위해 사용하는 물리적 구조 데이터 무결성에 도움이 됨 중복 데이터를 줄이고 이중데이터를 베제하는데 도움이 됨 다중테이블 뷰를 만들 수 있게 해줌
+참여 종류 강제적 : B테이블에 하나의 레코드를 삽입전에 적어도 A테이블에 적어도 하나의 레코드를 삽입해야함
+선택적 : B테이블에 하나의 레코드를 삽입전에 A테이블에 레코드 삽입할 필요 없음 참여 수준 연관된 테이블의 한레코드와 반드시 연결되어야하는 테이블의 최소레코드 수와 허용되는 최대 레코드 개수를 결정함
+왼쪽엔 최소 오른쪽에 최대
+ex) 테이블 : 대행사, 고객 대행사가 적어도 하나의 고객을 상대함 but 8명이상은상대하지 못함
+참여수준 : 1,8 <br><img alt="assets/Pasted image 20240421022139.png" src="700-컴퓨터과학/assets/pasted-image-20240421022139.png" target="_self" style="width: 300px; max-width: 100%;">
+서로 한레코드만 연관되어있을때
+한테이블은 부모테이블역할, 다른 한 테이블은 자식역할
+부모테이블의 주키의 복사본을 취해서 자식 테이블의 구조에 포함시킴(이거시 외래키가 됨)
+<br><img alt="assets/Pasted image 20240421022345.png" src="700-컴퓨터과학/assets/pasted-image-20240421022345.png" target="_self" style="width: 300px; max-width: 100%;"><br>
+<img alt="assets/Pasted image 20240421022428.png" src="700-컴퓨터과학/assets/pasted-image-20240421022428.png" target="_self" style="width: 300px; max-width: 100%;">
+A레코드가 B의 여러 레코드에 연관, 역은 오직 하나
+부모,자식모델 성립
+중복 데이터를 최소화 하는데 도움을 줌(데이터 무결성에 굿)
+가장 일반적인 관계
+<br><img alt="assets/Pasted image 20240421022617.png" src="700-컴퓨터과학/assets/pasted-image-20240421022617.png" target="_self" style="width: 300px; max-width: 100%;"><br>
+<img alt="assets/Pasted image 20240421023050.png" src="700-컴퓨터과학/assets/pasted-image-20240421023050.png" target="_self" style="width: 500px; max-width: 100%;">
+여러 레코드 link 여러레코드
+서로 관계가 있는 주키의 복사본을 취함
+연결테이블이라고 함 연결된 테이블끼리 레코드를 연결시키기 쉽게 해주고, 추가 삭제 수정에 문제 없도록 보장하는데 도움이 됨 pkfk 합쳐서 연결테이블의 복합 주키를 형성 필드 명세 : aka 도메인 필드의 모든 요소를 나타냄
+일반적 요소 : 필드 이름,설명,부모테이블등
+물리적 요소: 어케만들어지고 어케표현할지
+논리적 요소: 필드에 저장되는 값을 설명,필수값 범위 등 데이터 무결성 데이터의 유효성,일관성, 정확성을 가르킴
+db추출정보의 정확성은 데이터 무결성 수준에 정비례
+테이블 수준의 무결성 중복 레코드 ㄴㄴ
+각 레코드를 식별하는 필드가 유일하고 널이아님 필드 수준의 무결성(aka 도메인 무결성) 필드 구조가 정확하고 값이 유효하고 일관성있음
+같은 종류의 필드가 db전체에 걸처 일관성있게 정의 됨 관계수준의 무결성(aka 참조 무결성) 테이블 쌍 관계가 정확함
+임의의 테이블에서 삽입 갱신 삭제 될때마다 동기화 되는것을 보장 업무 규칙 조직이 데이터를 인식하고 사용하는 방법을 기초로함
+db의 특정한 측면에 대해 제약,규제를 부과
+필드 내 저장되는 값을 번위와 형식, 참여종류와 수준 등 설계측면에 영향을 미칠 수 있음 ]]></description><link>700-컴퓨터과학/school)-db2-1(설계전-이론).html</link><guid isPermaLink="false">700-컴퓨터과학/school) DB2-1(설계전 이론).md</guid><pubDate>Sun, 21 Sep 2025 07:53:05 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src="."&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[OS-8) 프로세스 교착상태]]></title><description><![CDATA[<a href=".?query=tag:deadlock" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#deadlock">#deadlock</a> 상호 배제(mutual exclusion= mutex)
+동시에 한자원을 한 프로세스만 사용가능하다.
+이게 아니라면 교착상태가 애시당초 발생하지 않음(한 자원을 한번에 여러프로세스가 접근 가능하니까) 점유 상태로 대기(hold and wait)
+하나이상의 자원을 가진 프로세스가 다른 프로세스가 가지고 있는 다른 자원을 획득하기 위해 기다린다.
+선점 불가(no preemption)
+프로세스가 가진 자원은 사용이 끝난 후에 자발적으로만 방출될 수 있다.(== 뺏을 수 없다.)
+순환성 대기(circulal wait)
+프로세스 집합이 존재할 때 순환형으로 자원을 기다리고 있는상황
+자원 할당 그래프를 그려보면 사이클이 발생하는지 알 수 있다.
+그래프에 사이클이 존재하지 않는다 =&gt; 교착상태 ㄴㄴ
+“”에 사이클이 존재한다
+자원타입마다 오직 하나의 인스턴스가 있다 -&gt; 교착상태 발생
+여러개 있으면 교착상태 발생 가능성 있음<br>
+<img alt="assets/Pasted image 20240418211706.png" src="700-컴퓨터과학/assets/pasted-image-20240418211706.png" target="_self">
+이 4가지 조건이 동시에 만족할 때 발생한다. BUT 4가지조건이 동시에 만족한다고 반드시 교착상태가 발생하는 것은 아니다.
+자원 A,B를 두개의 스레드S1,S2가 동시에 사용하려고 함
+이때 자원이 두개니 뮤텍스또한 두개고 A가 있는 뮤택스를 LockA, B가 있는 뮤텍스를 LockB라고 하자.
+S1이 LockA를 확인한다. 내려가 있으니 올린다.(=1이되면 누군가 점유하고 있다는 뜻이고 다른프로세스는 이자원을 획득하기 위해선 기다린다.). 후 자원을 S1이 점유. S1 : wait(A)
+S2가 LockB를 확인한다. 내려가 있으니 올리고 자원을 점유 S2 : wait(B)
+-- 지금까지 S1은 A를 소유 , S2는 B를 소유하고 있다. —
+S1은 LockB를 확인한다. 안내려가 있으니 대기
+S2는 LockA를 확인한다. 안내려가 있으니 대기
+-- 교착상태 —
+위의 4가지 필수조건 중 하나라도 발생하지 않게한다
+상호 배제 : 비공유자원을 미리확보,상호배제 조건을 인정하지 않는 경우는 거의 불가능하기에
+점유 상태로 대기 : 자원 요청시 어떠한 자원을 보유하지 않음을 보장(But 낮은 자원활용율, 기아 초래)
+선점 불가 : 자원보유중인 프로세스가 다른자원을 즉시 할당받지 않을시 소유중인 자원을 모두 방출
+선점 당한 프로세스는 기존 자원과 새로요청한 자원을 확보 할 수 있는 경우에만 실행
+순환 대기 : 모든 자원유형을 전체 순서를 정하여 자원요청
+각 요청을 운영체제가 직접 분석함으로써 데드락이 발생할 가능성을 확인(동적임)
+사용가능한 추가적인 사전 정보를 시스템이 가저야 한다
+상태 판단
+safe state인지를 판단하여 교착상태에 빠지지 않게 한다
+safe state : 모든프로세스에 순서가 존재함, 교착상태 발생불가
+unsafe state : 교착상태 발생 가능성있음(반드시 발생 ㄴㄴ)<br>
+<img alt="assets/Pasted image 20240418214254.png" src="700-컴퓨터과학/assets/pasted-image-20240418214254.png" target="_self" style="width: 300px; max-width: 100%;"> 자원이 하나의 인스턴스만 있는 경우
+<br><img alt="assets/Pasted image 20240423222740.png" src="700-컴퓨터과학/assets/pasted-image-20240423222740.png" target="_self" style="width: 300px; max-width: 100%;">
+이렇게 사이클이 생기면 unsafe state라는 것
+인스턴스여러개일때<br>
+<img alt="assets/Pasted image 20240424033353.png" src="700-컴퓨터과학/assets/pasted-image-20240424033353.png" target="_self">
+자원이 여러개의 인스턴스가 있는 경우
+각 프로세스는 최대 필요한 자원수를 선언
+모든 리소스 가져올 시 유한 시간 내 반환
+need = max - allocation<br>
+<img alt="assets/Pasted image 20240423223102.png" src="700-컴퓨터과학/assets/pasted-image-20240423223102.png" target="_self" style="width: 500px; max-width: 100%;"> p1 할당 반환 , available : 5 3 2
+p3 할당 반환 , available : 7 4 3
+p4 할당 반환 , available : 7 4 5
+p0 할당 반환 , available : 7 5 5
+p2 할당 반환 , available : 10 5 7
+데드락이 반드시 발생할것을 가정하고 어느부분이 데드락이 발생햇는지 탐색하는 방식프로세스를 강제로 종료시거나 자원을 강제로 회수한다.]]></description><link>700-컴퓨터과학/os-8)-프로세스-교착상태.html</link><guid isPermaLink="false">700-컴퓨터과학/OS-8) 프로세스 교착상태.md</guid><pubDate>Sun, 21 Sep 2025 07:51:00 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src="."&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[OS-6) 프로세스 스케줄링]]></title><description><![CDATA[
+CPU에서 실행할 프로세스를 선택하는 것
+프로세스 실행은 cpu-i/o burst cycle(cpu 다음에 io) CPU 사용을 최대화 &nbsp;CPU Utilization = ∑ (Process time / period) 처리량 최대화
+총처리 시간을 최소화
+대기 시간을 최소화
+응답시간을 최소화 job queue : 모든 프로세스가 올라가 있는 큐 (Long term)
+ready queue : 준비 상태에 있는 큐들이 올라가 있다 (short term)
+device queue : 입출력 장치마다 있는것,
+큐, 자원(원모양),프로세스의 이동 흐름을 나타냄
+<img alt="assets/스크린샷 2024-04-16 오후 9.47.34.png" src="700-컴퓨터과학/assets/스크린샷-2024-04-16-오후-9.47.34.png" target="_self">
+process create 되고 나선 바로 job queue에 적재된다.
+이 적재된것중에 ready queue 로 가는 것
+순서 : create &gt; job queue &gt; ready queue
+다음에 cpu에 할당될 프로세스를 선택한다
+즉 준비큐에 있는 프로세스를 선택한다.
+ms 간격으로 호출 &gt; 빨라야함 running -&gt; wait 상태 전이 (비선점 방식)
+running -&gt; ready 상태 전이 (선점 방식)
+wait -&gt; ready 상태 전이 (선점방식)
+종료 될 때 (비선점 방식)
+선점 방식인 이유 공유 데이터 접근 고려
+커널모드있는 동안의 선점 고려
+os작업중에 인터럽트 발생 고려 단기 스케줄러가 선택한 프로세스에게 cpu 제어를 주는 모듈
+하는 작업 문맥교환
+사용자 모드로 전환
+프로그램을 다시 시작하기위해 사종자 프로그램의 적절한 위치로 이동 디스페처 지연 디스페처가 하나의 프로세스를 중단시키고 다른 프로세스를 실행시키는데 소요되는 시간 준비큐로 이동할 프로세스를 선택한다.
+s, min 간격으로 호출
+이 스케줄러가 다중프로그래밍 정도를 결정
+io bound 와 cpu bound프로세스가 고루 섞이도록 한다. 많은 프로세스가 있을때(= 다중프로그래밍 중일 때), 너무 많은 프로세스에게 메모리를 할당해 시스템 성능이 저하 되는 것을 방지하기 위함
+swaping 이용 &nbsp;물리 메모리 공간이 부족해지면, 물리 메모리의 확장 개념으로 swap area를 사용하고 swap out 시켜 내보냄
+메모리 &lt;-&gt; 디스크 걍 queue
+딱 시작하는 타이밍이 waiting 시간
+호위효과가 발생할 수 있음 모든 프로세스가 긴프로세스하나가 cpu를 양도하기를 기다리는 것 우선순위가 먼저인 것을 머저 할당
+아래는 우선순위가 cpu burst 시간인 경우이다
+SJF(shortest job first) 버스트 길이를 기준으로 가장 짧은 시간을 가진 프로세스를 스케줄
+언제나 최소의 평균 대기시간을 보장
+단기 스케줄러에서 구현 못함
+BUT, CPU 버스트 시간을 알기 어렵다.
+대략 예측 방법
+- t(n) : n번째 프로세스 실제 CPU 사용 시간
+- 타우 n+1 : (n+1)번째 프로세스 CPU 사용 시간 추정치<br>
+<img alt="assets/스크린샷 2024-04-17 오후 4.56.05.png" src="700-컴퓨터과학/assets/스크린샷-2024-04-17-오후-4.56.05.png" target="_self" style="width: 300px; max-width: 100%;"> SRTF(shortest remaining time first) 선점 방식
+진행하다가 그 시간에 bursttime이 더 짧은 프로세스가 오면 선점함
+대기시간 = 마지막 조각 프로세스가 실행한 시간 - 프로세스도착시간 - 이전에 다른 조각프로세스가 실행한 시간
+평균대기시간 = 대기시간/프로세스 개수 starvation : 낮은 우선순위 프로세스는 실행되지 않을 수 있다.
+aging : 시간이 흘러갈수록 프로세스의 우선순위를 증가시킨다. 선점형
+프로세스는 적은양의 cpu 시간을 할당 받음(time quantum) 시간이 경과할때마다 인터럽트 if 준비큐에 n개, 시간할당량 q, 각프로세스는 q(n-1) 이상을 대기하지 않음
+- q가 커질수록 FIFO에 가까워짐
+- q가 적어지면 오버헤드가 커짐 so 문맥교환시간에 비해서는 충분히 커야함<br>
+<img alt="assets/스크린샷 2024-04-17 오후 5.30.48.png" src="700-컴퓨터과학/assets/스크린샷-2024-04-17-오후-5.30.48.png" target="_self" style="width: 400px; max-width: 100%;">
+ready queue를 여러개로 분할
+프로세스는 지정된 큐에 영원히 존재 (와리가리 못침)
+큐 사이의 스케줄링도 정해야함
+foreground queue user과의 상호작용을 많이하는 프로세스 존재
+보통 cpu 시간의 80퍼를 받아 RR방식으로 스케줄링 background queue user와 멀리떨어진 batch system형태의 프로세스 존재
+보통 cpu시간의 20퍼를 받아 FCFS 방식으로 스케줄링 foreground queue 처리후 background queue고려
+-&gt; starvation 야기 -&gt; cpu 시분할을 통해 방지
+각 프로세스가 여러 큐로 이동할 수 있다.
+aging기법을 다음과 같은 방식으로 구현할 수 있음
+응답속도가 빨라짐<br>
+<img alt="assets/스크린샷 2024-04-17 오후 5.42.45.png" src="700-컴퓨터과학/assets/스크린샷-2024-04-17-오후-5.42.45.png" target="_self" style="width: 400px; max-width: 100%;">
+먼저 quantum 8(RR방식)의 큐에 넣는다
+if 위의 큐에서 처리안되면, 하위큐에 넣음
+최종적으로도 처리 안될 시 FCFS에 들어가서 처리됨
+<br>ex) NUMA<img alt="assets/스크린샷 2024-04-17 오후 6.09.25.png" src="700-컴퓨터과학/assets/스크린샷-2024-04-17-오후-6.09.25.png" target="_self" style="width: 400px; max-width: 100%;">
+cpu가 여러개
+다중처리기 접근 비대칭 다중처리 : 오직 하나의 처리기 만이 시스템 자료구조에 접근가능
+대칭 다중처리 : 각처리기는 독자적으로 스케줄링, 모든 프로세스는 각각이나 공통의 준비큐에 있을 수 있다. 처리 친화성 : 프로세스는 현재 자신이 실행중인처리기를 더 선호한다(당연한거아뉨?)
+효율적으로 작동할라면 로드밸런싱이 있어야한다 push migration : 각처리기의 부하를 점검하고 일을 분배
+pull mirgration : 노는 처리기가 바쁜 처리기에서 대기중인 일을 가져와 실행 한 물리적칩안에 여러개의 처리기 코어를 배치
+빠르며 더 적은 전력을 소모
+코어마다 여러 스레드 지원이 증가하는 추세
+메모리 멈춤 상황이 발생할 수 있음(여러프로세스가 메모리에 접근
+Real-Time System은 "Deadline"이 존재하고 해당 Dealine을 지키지 않는다면 시스템에 치명적인 영향을 줄 수 있다. 그래서 반드시 "Deadline"내에 job을 끝내야 한다
+선점형, 우선순위 기반(prioriy-based) 스케줄링을 지원해야함
+마감시간을 충족해야한다
+<br><img alt="assets/스크린샷 2024-04-17 오후 6.16.55.png" src="700-컴퓨터과학/assets/스크린샷-2024-04-17-오후-6.16.55.png" target="_self" style="width: 400px; max-width: 100%;">
+soft real time : 중요한 실시간 프로세스가 언제 스케줄될지 보장 ㄴㄴ
+hard real time : 테스크는 마감시간 전 까지 반드시 완료
+RMS (Rate Montonic Scheduling) 우선순위가 주기의 역수로 매겨짐
+즉, 빠른(적은)주기== 높은우선순위
+ex) P1은 주기가 50초이고, 20초동안 processing한다. P2는 주기가 100초이고, 35초동안 processing한다<br>
+<img alt="assets/IMG_0039.png" src="700-컴퓨터과학/assets/img_0039.png" target="_self"> EDF(Earliest Deadline First Scheduling) 우선순위가 마감시간에 따라 부여됨
+이 방법은 RMS처럼 static하게 priority를 주는&nbsp;것이 아니라, task들이 들어올때마다 deadline을 비교해보고, priority를 정하는 방식이다
+ex) P1은&nbsp;주기가 50이고, processing이 25이다. P2는 주기가 80이고, processing이 35이다. 주기가 deadline일때<br>
+<img alt="assets/IMG_0041.png" src="700-컴퓨터과학/assets/img_0041.png" target="_self"> Proportional Share Scheduling n/t deadline을 지킬려면 지연시간을 최소화 해야함
+두종류의 지연이 성능에 영향을 준다
+인터럽트 지연 : 인터럽트가 도착해서 인터럽트를 서비스하기 시작할 때까지의 시간
+디스패치 지연 : 프로세스를 중단시키고 새로운 프로세스로 전환하는데 걸리는시간(문맥전환) 충돌이 될 수 있는 단계 커널 모드에서 실행중인프로세스 선점
+낮은 우선순위의 프로세스가 높은 우선순위의 프로세스가 요구하는 자원을 방출 특정 예측된 부하를 미리 정해 놓고 그 부하에 대한 각 알고리즘의 성능을 측정한다
+분석적 평가의 한 부류
+간단하고 빠르지만 특수한 입력에 대해서만 해당될 수 있음 프로세스 도착과 cpu,i/o 버스트를 확률적 분포를 설명 평균 처리량, 이용률, 대기시간 등을 계산 각 서버는 대기 프로세스르 넣을 큐를 가진다
+little's law n = 람다 * W (사실상 거속시아님?)
+n : 평균 큐의 길이(몇개의 프로세스가 존재 가능하냐)
+람다 : 큐에 평균적으로 도착하는 평균 개수
+W : 큐에서 평균적으로 기다리는 시간 컴퓨터 시스템의 프로그램 모델
+클럭은 가변적
+알고리즘 성능을 나타내는 통계자료를 수집
+데이터 수집 방법 확률에 기초한 랜덤넘버 발생
+수학적 or 경험적으로 정의된 분포
+실제 시스템의 이벤트를 차례대로 기록한 추적테이프 위에것들보단 정확하지만 한계는 있다
+]]></description><link>700-컴퓨터과학/os-6)-프로세스-스케줄링.html</link><guid isPermaLink="false">700-컴퓨터과학/OS-6) 프로세스 스케줄링.md</guid><pubDate>Sun, 21 Sep 2025 07:51:00 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src="."&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[OS-11) 보조 저장 장치]]></title><description/></item><item><title><![CDATA[webflux vs mvc-1757788537542]]></title><description><![CDATA[<img src="300-백엔드개발/assets/webflux-vs-mvc-1757788537542.png" target="_self">]]></description><link>300-백엔드개발/assets/webflux-vs-mvc-1757788537542.html</link><guid isPermaLink="false">300-백엔드개발/assets/webflux vs mvc-1757788537542.png</guid><pubDate>Sat, 13 Sep 2025 18:35:37 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src="."&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[webflux vs mvc-1757788425212]]></title><description><![CDATA[<img src="300-백엔드개발/assets/webflux-vs-mvc-1757788425212.png" target="_self">]]></description><link>300-백엔드개발/assets/webflux-vs-mvc-1757788425212.html</link><guid isPermaLink="false">300-백엔드개발/assets/webflux vs mvc-1757788425212.png</guid><pubDate>Sat, 13 Sep 2025 18:33:45 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src="."&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[tomcat vs netty]]></title><description><![CDATA[
 ]]></description><link>300-백엔드개발/tomcat-vs-netty.html</link><guid isPermaLink="false">300-백엔드개발/tomcat vs netty.md</guid><pubDate>Sat, 13 Sep 2025 18:30:09 GMT</pubDate></item><item><title><![CDATA[filter, servlet]]></title><description><![CDATA[필터,서블릿은 &nbsp;자바 표준 인터페이스임
 요청이 들어오면:
 서버(WAS)가 요청을 받음
@@ -61,9 +725,7 @@ if (!eventLogRepository.existsByEventId(event.getId())) { processEvent(event); e
 우리는 이 2번째인 요청이 만료되기 전 origin이 응답하지 않는 문제가 발생햇던것이다.<br><a data-tooltip-position="top" aria-label="https://docs.aws.amazon.com/cloudfront/latest/APIReference/API_CustomOriginConfig.html" rel="noopener nofollow" class="external-link is-unresolved" href="https://docs.aws.amazon.com/cloudfront/latest/APIReference/API_CustomOriginConfig.html" target="_self">aws 공식 문서</a>에서 cloudfront의 originReadTimeout이 디폴트로 얼마나 있는지 확인해 볼 수 있엇다
 OriginReadTimeout
 Specifies how long, in seconds, CloudFront waits for a response from the origin. This is also known as the&nbsp;origin response timeout. The minimum timeout is 1 second, the maximum is 120 seconds, and the default (if you don't specify otherwise) is 30 seconds.
-그렇다 디폴트로 30초이고 최대 2분까지 가능하다.당시 api는 ai모델을 이용하는 요청이였으므로 평균 2.5분이 걸렸다 즉 기존 http를 이용한 api로는 불가능하다고 판단하였다.따라서 ai서비스 진행상황도 유저가 트래킹할 수 있도록 웹소켓으로 데이터를 받는 것으로 수정하였다.]]></description><link>400-인프라-&amp;-아키텍처/error-장시간-요청-cloudfront-timeout.html</link><guid isPermaLink="false">400-인프라 &amp; 아키텍처/Error - 장시간 요청 Cloudfront timeout.md</guid><dc:creator><![CDATA[Jeon MinJi]]></dc:creator><pubDate>Sat, 13 Sep 2025 15:22:53 GMT</pubDate><enclosure url="error/assets/nginx-1757772245845.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="error/assets/nginx-1757772245845.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[📚 801 다 맡게팅]]></title><description><![CDATA[다 맡게팅 관련 내용을 담는 토픽입니다.
-<a data-href="📖 800 프로젝트" href="99-settings/1-topics/📖-800-프로젝트.html" class="internal-link" target="_self" rel="noopener nofollow">📖 800 프로젝트</a>
-]]></description><link>99-settings/1-topics/📚-801-다-맡게팅.html</link><guid isPermaLink="false">99-Settings/1-Topics/📚 801 다 맡게팅.md</guid><pubDate>Sat, 13 Sep 2025 15:21:27 GMT</pubDate></item><item><title><![CDATA[b_계단 오르기_2579]]></title><description><![CDATA[한번에 1,2 jump 가능
+그렇다 디폴트로 30초이고 최대 2분까지 가능하다.당시 api는 ai모델을 이용하는 요청이였으므로 평균 2.5분이 걸렸다 즉 기존 http를 이용한 api로는 불가능하다고 판단하였다.따라서 ai서비스 진행상황도 유저가 트래킹할 수 있도록 웹소켓으로 데이터를 받는 것으로 수정하였다.]]></description><link>400-인프라-&amp;-아키텍처/error-장시간-요청-cloudfront-timeout.html</link><guid isPermaLink="false">400-인프라 &amp; 아키텍처/Error - 장시간 요청 Cloudfront timeout.md</guid><dc:creator><![CDATA[Jeon MinJi]]></dc:creator><pubDate>Sat, 13 Sep 2025 15:22:53 GMT</pubDate><enclosure url="error/assets/nginx-1757772245845.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="error/assets/nginx-1757772245845.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[b_계단 오르기_2579]]></title><description><![CDATA[한번에 1,2 jump 가능
 연속된 3개 불가
 마지막껀 반드시밟아야
 애를밟앗을때가장높은점수
@@ -1062,9 +1724,7 @@ dfs,bfs,재귀 로가능하지만 시간초과가 나는경우(케이스가 너�
 <a data-href="📖 400 인프라 &amp; 아키텍처" href="99-settings/1-topics/📖-400-인프라-&amp;-아키텍처.html" class="internal-link" target="_self" rel="noopener nofollow">📖 400 인프라 &amp; 아키텍처</a>
 ]]></description><link>99-settings/1-topics/📚-405-모니터링-&amp;-로깅.html</link><guid isPermaLink="false">99-Settings/1-Topics/📚 405 모니터링 &amp; 로깅.md</guid><pubDate>Mon, 08 Sep 2025 14:07:26 GMT</pubDate></item><item><title><![CDATA[📚 207 CSS & 스타일링]]></title><description><![CDATA[CSS &amp; 스타일링 관련 학습 내용을 담는 토픽입니다.
 <a data-href="📖 200 웹 개발" href="99-settings/1-topics/📖-200-웹-개발.html" class="internal-link" target="_self" rel="noopener nofollow">📖 200 웹 개발</a>
-]]></description><link>99-settings/1-topics/📚-207-css-&amp;-스타일링.html</link><guid isPermaLink="false">99-Settings/1-Topics/📚 207 CSS &amp; 스타일링.md</guid><pubDate>Mon, 08 Sep 2025 14:07:26 GMT</pubDate></item><item><title><![CDATA[📚 705 보안]]></title><description><![CDATA[보안 관련 학습 내용을 담는 토픽입니다.
-<a data-href="📖 700 컴퓨터 과학" href="99-settings/1-topics/📖-700-컴퓨터-과학.html" class="internal-link" target="_self" rel="noopener nofollow">📖 700 컴퓨터 과학</a>
-]]></description><link>99-settings/1-topics/📚-705-보안.html</link><guid isPermaLink="false">99-Settings/1-Topics/📚 705 보안.md</guid><pubDate>Mon, 08 Sep 2025 14:07:26 GMT</pubDate></item><item><title><![CDATA[📚 304 Express.js]]></title><description><![CDATA[Express.js 관련 학습 내용을 담는 토픽입니다.
+]]></description><link>99-settings/1-topics/📚-207-css-&amp;-스타일링.html</link><guid isPermaLink="false">99-Settings/1-Topics/📚 207 CSS &amp; 스타일링.md</guid><pubDate>Mon, 08 Sep 2025 14:07:26 GMT</pubDate></item><item><title><![CDATA[📚 304 Express.js]]></title><description><![CDATA[Express.js 관련 학습 내용을 담는 토픽입니다.
 <a data-href="📖 300 백엔드 개발" href="99-settings/1-topics/📖-300-백엔드-개발.html" class="internal-link" target="_self" rel="noopener nofollow">📖 300 백엔드 개발</a>
 ]]></description><link>99-settings/1-topics/📚-304-express.js.html</link><guid isPermaLink="false">99-Settings/1-Topics/📚 304 Express.js.md</guid><pubDate>Mon, 08 Sep 2025 14:07:26 GMT</pubDate></item><item><title><![CDATA[📚 616 Python]]></title><description><![CDATA[Python 관련 학습 내용을 담는 토픽입니다.
 <a data-href="📖 600 알고리즘 &amp; 코딩테스트" href="99-settings/1-topics/📖-600-알고리즘-&amp;-코딩테스트.html" class="internal-link" target="_self" rel="noopener nofollow">📖 600 알고리즘 &amp; 코딩테스트</a>
@@ -1428,7 +2088,7 @@ DB커넥션 수와 시간을 줄일 . 수있음 영속성 컨텍스트의 변경
 수정된 엔티티 등록
 sql db 전송 언제 발생? 트랜젝션 커밋
 (Java Persistence Query Language)로 쿼리를 실행할 때 자동으로
-직접 flush() 호출 모드 auto 트랜잭션 커밋이나 쿼리 실행 시 플러시가 자동으로 동작 commit 트랜잭션 커밋 시에만 플러시가 동작 ]]></description><link>300-백엔드개발/스프링-db-접근.html</link><guid isPermaLink="false">300-백엔드개발/스프링 DB 접근.md</guid><pubDate>Sun, 06 Jul 2025 07:36:52 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src="."&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[k8s]]></title><description/></item><item><title><![CDATA[home]]></title><description><![CDATA[this is home]]></description><link>home.html</link><guid isPermaLink="false">home.md</guid><pubDate>Sat, 30 Aug 2025 17:05:06 GMT</pubDate></item><item><title><![CDATA[0. 머신러닝 기본]]></title><description><![CDATA[<a href=".?query=tag:root" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#root">#root</a>
+직접 flush() 호출 모드 auto 트랜잭션 커밋이나 쿼리 실행 시 플러시가 자동으로 동작 commit 트랜잭션 커밋 시에만 플러시가 동작 ]]></description><link>300-백엔드개발/스프링-db-접근.html</link><guid isPermaLink="false">300-백엔드개발/스프링 DB 접근.md</guid><pubDate>Sun, 06 Jul 2025 07:36:52 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src="."&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[0. 머신러닝 기본]]></title><description><![CDATA[<a href=".?query=tag:root" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#root">#root</a>
 AI ⊃ ML ⊃ DL ⊃ GEN AI 기존 머신러닝(딥러닝이아닌..) vs 딥러닝
 기존 머신러닝(이하 머신러닝) 는 sklearn씀
 딥러닝은 pytorch나 tensorflow씀 패턴 있는것 &gt; 데이터로 이용
